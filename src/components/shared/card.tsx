@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link"
 import ArrowForwardIcon from "@mui/icons-material/ArrowForwardRounded"            
 import { Badge } from "@/components/ui/badge"          
@@ -16,10 +18,10 @@ export interface CardProps {
   export default function Card({ title, subtitle, tags, href, imageSrc, imageAlt }: CardProps) {
     return (
       <article className="bg-cont-primary rounded-2xl border border-border-default overflow-hidden">
-        <div className="relative w-full">
+        <div className="relative w-full h-48">
           <Image
-            src={imageSrc || "/default-image.jpg"}
-            alt={imageAlt || "Default alt text"}
+            src={imageSrc ?? "/covers/image.png"}
+            alt={imageAlt ?? "Default alt text"}
             fill
             className="object-cover"
           />

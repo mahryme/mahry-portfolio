@@ -1,4 +1,5 @@
-import Image from 'next/image'
+"use client";
+
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Container } from "@/components/container"
@@ -25,7 +26,7 @@ export default function Header () {
                         <div className="flex items-center gap-1">
                             <Link href="https://metis.works/" target="_blank">
                                 <Button variant="ghost">
-                                    <Metis />
+                                    <Metis className="w-6 h-6"/>
                                     <span>Metis</span>
                                     <ArrowOutwardIcon className="w-2 h-2" />
                                 </Button>
@@ -50,7 +51,7 @@ export default function Header () {
                     <div className="w-full flex gap-1">
                         <Button asChild variant="ghost" size="default">
                             <Link href="https://metis.works/" target="_blank" className="items-center gap-1">
-                                <Metis h-4 w-4/>
+                                <Metis className="h-4 w-4"/>
                                 Metis
                                 <ArrowOutwardIcon />
                             </Link>
