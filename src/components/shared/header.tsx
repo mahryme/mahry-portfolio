@@ -39,7 +39,7 @@ export default function Header () {
                         </div>
                         <Link href="/contact">
                             <Button variant="accent">
-                                <span>Let's connect!</span>
+                                <span>Let&apos;s connect!</span>
                             </Button>
                         </Link>
                     </div>
@@ -64,7 +64,7 @@ export default function Header () {
                     </div>
                     <Button asChild variant="accent" size="default">
                         <Link href="/about">
-                            Let's connect!
+                            Let&apos;s connect!
                         </Link>
                     </Button>
                 </div>

@@ -3,7 +3,9 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-
+  output: 'export',
+  basePath: '/mahry-portfolio',
+  assetPrefix: '/mahry-portfolio/',
   // ← note: this is now an arrow-function, not the JS method shorthand
   webpack: (config, { isServer }) => {
     // add the SVGR loader

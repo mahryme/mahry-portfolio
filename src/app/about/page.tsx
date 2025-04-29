@@ -1,7 +1,5 @@
-import { Container } from "@/components/container"
 import Header from '@/components/shared/header';
 import Footer from '@/components/shared/footer';
-import Card from '@/components/shared/card';
 
 export default function AboutMe() {
   return(
