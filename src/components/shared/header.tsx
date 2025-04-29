@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Container } from "@/components/container"
-import ArrowOutwardIcon from '@mui/icons-material/ArrowOutwardRounded'
+import { ArrowUpRight} from 'lucide-react'
 import { Metis } from "@/components/shared/icons"
 
 export default function Header () {
@@ -22,20 +22,20 @@ export default function Header () {
                             <p className="text-text-secondary text-label-s font-semibold">Product Designer</p>
                         </div>
                     </div>
-                    <div className="hidden md:flex items-center gap-8">
+                    <div className="hidden md:flex items-center gap-6">
                         <div className="flex items-center gap-1">
-                            <Link href="https://metis.works/" target="_blank">
-                                <Button variant="ghost">
-                                    <Metis className="w-6 h-6"/>
-                                    <span>Metis</span>
-                                    <ArrowOutwardIcon className="w-2 h-2" />
-                                </Button>
-                            </Link>
-                            <Link href="/about">
-                                <Button variant="ghost">
-                                    <span>About me</span>
-                                </Button>
-                            </Link>
+                            <Button asChild variant="ghost" size="default">
+                                <Link href="https://metis.works/" target="_blank" className="items-center gap-1">
+                                    <Metis className="h-5 w-5"/>
+                                    Metis
+                                    <ArrowUpRight className="w-6 h-6 text-text-secondary -ml-1"/>
+                                </Link>
+                            </Button>
+                            <Button asChild variant="ghost" size="default">
+                                <Link href="/about" className="items-center gap-1">
+                                    About me
+                                </Link>
+                            </Button>
                         </div>
                         <Link href="/contact">
                             <Button variant="accent">
@@ -51,9 +51,9 @@ export default function Header () {
                     <div className="w-full flex gap-1">
                         <Button asChild variant="ghost" size="default">
                             <Link href="https://metis.works/" target="_blank" className="items-center gap-1">
-                                <Metis className="h-4 w-4"/>
+                            <Metis className="h-5 w-5"/>
                                 Metis
-                                <ArrowOutwardIcon />
+                                <ArrowUpRight className="w-6 h-6 text-text-secondary -ml-1"/>
                             </Link>
                         </Button>
                         <Button asChild variant="ghost" size="default">

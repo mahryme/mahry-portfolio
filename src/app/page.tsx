@@ -1,7 +1,4 @@
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import { Container } from "@/components/container"
-import ArrowIcon from '@mui/icons-material/ArrowForward';
 import Header from '@/components/shared/header';
 import Footer from '@/components/shared/footer';
 import Card from '@/components/shared/card';
@@ -9,8 +6,8 @@ import Card from '@/components/shared/card';
 export default function HomePage() {
   return(
     <>
-      <Header />
-      <main className="flex-1 pb-16 md:pb-0">
+      <main className="flex-1 pb-16 md:pb-0 max-h md:min-h-[100dvh]">
+        <Header />
         <section className="flex items-center justify-center">
           <Container>
             <div className="max-w-2xl flex flex-col gap-3">
@@ -25,6 +22,7 @@ export default function HomePage() {
               <h4 className="text-h4 font-semibold">Cases</h4>
               <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-5">
                 <Card
+                  imageSrc="/covers/dashboard.svg"
                   title="Designing a Unified Personal Account"
                   subtitle="Built an in-house personal account to streamline UX and reduce support tickets by 65%"
                   tags={["UX", "Design System", "Product Strategy"]}
@@ -48,7 +46,6 @@ export default function HomePage() {
         </section>
         <Footer />
       </main>
-      
     </>
   ) 
 }

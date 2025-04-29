@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link"
-import ArrowForwardIcon from "@mui/icons-material/ArrowForwardRounded"            
+import { ArrowRight } from "lucide-react"            
 import { Badge } from "@/components/ui/badge"          
 import { Button } from "@/components/ui/button"        
 import * as React from "react"
@@ -18,7 +18,7 @@ export interface CardProps {
   export default function Card({ title, subtitle, tags, href, imageSrc, imageAlt }: CardProps) {
     return (
       <article className="bg-cont-primary rounded-2xl border border-border-default overflow-hidden">
-        <div className="relative w-full h-48">
+        <div className="relative w-full aspect-[440/277.68]">
           <Image
             src={imageSrc ?? "/covers/image.png"}
             alt={imageAlt ?? "Default alt text"}
@@ -45,7 +45,7 @@ export interface CardProps {
             <Button asChild variant="primary" size="default">
                 <Link href={href} className="items-center gap-2">
                     Read
-                    <ArrowForwardIcon />
+                    <ArrowRight className="w-6 h-6 -ml-1" />
                 </Link>
             </Button>
         </div>
