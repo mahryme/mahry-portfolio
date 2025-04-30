@@ -10,7 +10,7 @@ const containerVariants = cva(
       variant: {
         default: 'max-w-screen-xl',
         blog: 'max-w-screen-md gap-8',
-        nav: 'max-w-screen-xl px-5 py-4 md:px-10 py-5'
+        nav: 'max-w-screen-xl px-5 py-2 md:px-10 py-5'
       },
     },
     defaultVariants: {
