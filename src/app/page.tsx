@@ -6,7 +6,7 @@ import Card from '@/components/shared/card';
 export default function HomePage() {
   return(
     <>
-      <main className="flex-1 pb-16 md:pb-0 max-h md:min-h-[100dvh]">
+      <main className="flex-1 pb-16 md:pb-0">
         <Header />
         <section className="flex items-center justify-center">
           <Container>
