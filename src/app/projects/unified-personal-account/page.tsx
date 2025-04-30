@@ -23,9 +23,9 @@ export default function JobBoard() {
                         </div>
                         <hr className="border-t border-border-strong" />
                         <div className="grid grid-cols-3 gap-5">
-                            <p className="text-body-s font-semibold text-text-primary">Solo Product Designer</p>
-                            <p className="text-body-s font-semibold text-text-primary">6 months (H2 2024)</p>
-                            <p className="text-body-s font-semibold text-text-primary">–65 % Support Tickets</p>
+                            <p className="text-body-s font-regular text-text-primary">Solo Product Designer</p>
+                            <p className="text-body-s font-regular text-text-primary">6 months (H2 2024)</p>
+                            <p className="text-body-s font-regular text-text-primary">–65 % Support Tickets</p>
                         </div>
                     </div>
                 </div>
