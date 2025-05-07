@@ -9,7 +9,7 @@ import { Metis } from "@/components/shared/icons"
 export default function Header () {
     return (
         <>
-            <header className="w-full flex items-center justify-center md:bg-cont-primary md:border-b border-border-default md:sticky md:top-0 md:z-10">
+            <header className="w-full flex items-center justify-center">
                 <Container variant="nav">
                     <div className="flex gap-2">
                         <Link href="/">

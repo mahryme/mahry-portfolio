@@ -6,8 +6,8 @@ import Card from '@/components/shared/card';
 export default function HomePage() {
   return(
     <>
+      <Header />
       <main className="flex-1 pb-16 md:pb-0">
-        <Header />
         <section className="flex items-center justify-center">
           <Container>
             <div className="max-w-2xl flex flex-col gap-3">
@@ -22,17 +22,17 @@ export default function HomePage() {
               <h4 className="text-h4 font-semibold">Cases</h4>
               <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-5">
                 <Card
-                  imageSrc="/covers/dashboard.svg"
-                  title="Designing a Unified Personal Account"
-                  subtitle="Built an in-house personal account to streamline UX and reduce support tickets by 65%"
-                  tags={["UX", "Design System", "Product Strategy"]}
-                  href="/projects/unified-personal-account"
-                />
-                <Card
                   title="Job Board"
                   subtitle="Built an in-house personal account to streamline UX and reduce support tickets by 65%"
                   tags={["UX", "Design System", "Product Strategy"]}
                   href="/projects/job-board"
+                />
+                <Card
+                  imageSrc="/covers/dashboard.svg"
+                  title="Unified Personal Account Migration"
+                  subtitle="Migrated our account flows out of Kwiga into a custom Webflow + Memberstack setup - cutting support tickets by 65%"
+                  tags={["Product Design", "Ukrainian UI", "H2 2024"]}
+                  href="/projects/unified-personal-account"
                 />
                 <Card
                   title="Settings"
