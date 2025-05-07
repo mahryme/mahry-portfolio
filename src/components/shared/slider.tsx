@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, FreeMode } from 'swiper/modules';
 import type { SwiperOptions } from "swiper/types";
+import Image from "next/image";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -56,10 +57,11 @@ export function Slider({
             <div className="flex flex-col gap-3">
                 <figure className="bg-cont-secondary p-3 rounded-3xl">
                     <div className="relative w-full aspect-[440/277.68]">
-                        <img
+                        <Image
                             src={slide.src}
                             alt={slide.caption ?? `Slide ${i + 1}`}
-                            className="object-cover w-full h-full rounded-2xl"
+                            className="object-cover"
+                            unoptimized={true}
                         />
                     </div>
                 </figure>

@@ -76,7 +76,7 @@ export default function PersonalAccount() {
                             </p>
                         </blockquote>
                         <p className="text-body-md">
-                        Because our personal-account lived inside Kwiga's third-party interface, <span className="font-semibold">learners faced a disjointed experience, our support tickets surged</span> with <span className="italic">“Where's my library?”</span> and <span className="italic">“How do I cancel?”</span> inquiries, and <span className="font-semibold">we had little visibility into user preferences or upsell potential.</span>
+                            Because our personal-account lived inside Kwiga&apos;s third-party interface, <span className="font-semibold">learners faced a disjointed experience, our support tickets surged</span> with <span className="italic">&quot;Where&apos;s my library?&quot;</span> and <span className="italic">&quot;How do I cancel?&quot;</span> inquiries, and <span className="font-semibold">we had little visibility into user preferences or upsell potential.</span>
                         </p>
                     </div>
 
@@ -110,10 +110,10 @@ export default function PersonalAccount() {
                                     <span className="font-semibold">The context switch between our site and Kwiga confused learners</span> and drove up support tickets.
                                 </li>
                                 <li>
-                                <span className="font-semibold">Playback issues and “nice-to-have” feature requests</span> (bookmarking, progress tracking, personalised recommendations) were frequent themes, though some weren't possible in Kwiga.
+                                    <span className="font-semibold">Playback issues and “nice-to-have” feature requests</span> (bookmarking, progress tracking, personalised recommendations) were frequent themes, though some weren't possible in Kwiga.
                                 </li>
                                 <li>
-                                    As Viktoriia noted, <span className="font-semibold italic">“content discovery was challenging in the existing interface”.</span>
+                                    As Viktoriia noted, <span className="font-semibold italic">&quot;content discovery was challenging in the existing interface&quot;.</span>
                                 </li>
                                 <li>
                                     While Kwiga offers analytics, its <span className="font-semibold">limited data</span> gave only basic metrics, hampering our ability to truly personalise the experience of our users.
