@@ -110,10 +110,10 @@ export default function PersonalAccount() {
                                     <span className="font-semibold">The context switch between our site and Kwiga confused learners</span> and drove up support tickets.
                                 </li>
                                 <li>
-                                    <span className="font-semibold">Playback issues and “nice-to-have” feature requests</span> (bookmarking, progress tracking, personalised recommendations) were frequent themes, though some weren't possible in Kwiga.
+                                    <span className="font-semibold">Playback issues and &quot;nice-to-have&quot; feature requests</span> (bookmarking, progress tracking, personalised recommendations) were frequent themes, though some weren&apos;t possible in Kwiga.
                                 </li>
                                 <li>
-                                    As Viktoriia noted, <span className="font-semibold italic">&quot;content discovery was challenging in the existing interface&quot;.</span>
+                                    As Viktoriia noted, <span className="font-semibold italic">&quot;content discovery was challenging in the existing interface&quot;</span>.
                                 </li>
                                 <li>
                                     While Kwiga offers analytics, its <span className="font-semibold">limited data</span> gave only basic metrics, hampering our ability to truly personalise the experience of our users.
