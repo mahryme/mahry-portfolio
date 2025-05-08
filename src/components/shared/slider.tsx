@@ -23,8 +23,7 @@ interface SliderProps {
 
 export function Slider({
   slides,
-  speed = 400,
-  direction = 'ltr',    
+  speed = 400,    
   options = {},
 }: SliderProps) {
   return (
