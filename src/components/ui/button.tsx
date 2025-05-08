@@ -16,7 +16,7 @@ const buttonVariants = cva(
         ghost:
           "text-action-ghost-text hover:bg-action-ghost-hovered",
         icon:
-          "bg-action-secondary text-action-secondary-text border-action-secondary-border border-2 shadow-xs hover:bg-action-secondary-hovered",
+          "bg-action-secondary text-action-secondary-text border-action-secondary-border border-2 shadow-xs hover:shadow-none hover:bg-action-secondary-hovered",
       },
       size: {
         default: "h-10 px-3 py-2 has-[>svg]",

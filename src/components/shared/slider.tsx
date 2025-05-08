@@ -23,7 +23,8 @@ interface SliderProps {
 
 export function Slider({
   slides,
-  speed = 400,    
+  speed = 400,
+  direction = 'ltr',    
   options = {},
 }: SliderProps) {
   return (
@@ -55,11 +56,13 @@ export function Slider({
         {slides.map((slide, i) => (
           <SwiperSlide key={i} className="w-auto max-w-[440px]">
             <div className="flex flex-col gap-3">
-                <figure className="bg-cont-secondary p-3 rounded-3xl">
+                <figure className="bg-cont-secondary p-1 rounded-2xl">
                     <div className="relative w-full aspect-[440/277.68]">
                         <Image
                             src={slide.src}
                             alt={slide.caption ?? `Slide ${i + 1}`}
+                            loading="lazy"
+                            fill
                             className="object-cover"
                             unoptimized={true}
                         />

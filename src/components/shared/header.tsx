@@ -46,7 +46,7 @@ export default function Header () {
                 </Container>
             </header>
 
-            <nav className="fixed bottom-0 left-0 z-10 w-full bg-cont-primary border-t border-border-default md:hidden">
+            <nav className="fixed bottom-0 left-0 z-10 w-full bg-cont-primary border-t shadow-lg border-border-default md:hidden">
                 <div className="flex items-center justify-between px-5 py-4 gap-1">
                     <div className="w-full flex gap-1">
                         <Button asChild variant="ghost" size="default">

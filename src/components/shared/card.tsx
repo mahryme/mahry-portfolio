@@ -27,21 +27,22 @@ export interface CardProps {
           />
         </div>
         <div className="p-3 flex flex-col justify-between gap-3 md:items-start">
-            <div className="flex flex-wrap gap-2">
-                {tags.map(tag => (
-                  <Badge key={tag} variant="default">
-                    {tag}
-                  </Badge>
-                  ))}
-              </div>
             <div className="flex flex-col gap-2">
-                <div className="flex flex-col gap-1">
-                    <h3 className="text-h5 font-semibold">{title}</h3>
-                    {subtitle && (
-                        <p className="text-body-s text-text-secondary">{subtitle}</p>
-                    )}
+              <div className="flex flex-wrap gap-1">
+                  {tags.map(tag => (
+                    <Badge key={tag} variant="default">
+                      {tag}
+                    </Badge>
+                    ))}
                 </div>
-                
+              <div className="flex flex-col gap-2">
+                  <div className="flex flex-col gap-1">
+                      <h3 className="text-h5 font-semibold">{title}</h3>
+                      {subtitle && (
+                          <p className="text-body-s text-text-secondary">{subtitle}</p>
+                      )}
+                  </div> 
+              </div>
             </div>
             <Button asChild variant="primary" size="default">
                 <Link href={href} className="items-center gap-2">

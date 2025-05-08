@@ -11,8 +11,8 @@ export default function HomePage() {
         <section className="flex items-center justify-center">
           <Container>
             <div className="max-w-2xl flex flex-col gap-3">
-              <h2 className="text-h2 font-semibold">Hi 👋 I’m a product designer who loves building systems and helping things grow</h2>
-              <p className="text-body-lg font-regular">Besides, I’m learning Next.js, co-building Metis, running, mastering Spanish and keeping up with sport :)</p>
+              <h2 className="text-h2 font-semibold">Hi 👋 I&apos;m a product designer who loves building systems and helping things grow</h2>
+              <p className="text-body-lg font-regular">I&apos;m passionate about designing cool things that work and make an impact. Also, I&apos;m learning Next.js so I can code my own prototypes and components.</p>
             </div>
           </Container>
         </section>
@@ -22,23 +22,25 @@ export default function HomePage() {
               <h4 className="text-h4 font-semibold">Cases</h4>
               <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-5">
                 <Card
+                  imageSrc="/covers/job-board-cover.svg"
                   title="Job Board"
-                  subtitle="Built an in-house personal account to streamline UX and reduce support tickets by 65%"
-                  tags={["UX", "Design System", "Product Strategy"]}
-                  href="/projects/job-board"
+                  subtitle="Embedded a fully responsive job board into our lecture library to drive course upsells - launched with 24 live vacancies and a 15% click-through rate to related lectures"
+                  tags={["Product", "Q1-Q2 2025"]}
+                  href="/cases/job-board"
                 />
                 <Card
-                  imageSrc="/covers/dashboard.svg"
-                  title="Unified Personal Account Migration"
-                  subtitle="Migrated our account flows out of Kwiga into a custom Webflow + Memberstack setup - cutting support tickets by 65%"
-                  tags={["Product Design", "Ukrainian UI", "H2 2024"]}
-                  href="/projects/unified-personal-account"
+                  imageSrc="/covers/account-cover.svg"
+                  title="Personal Account Migration"
+                  subtitle="Moved off Kwiga to Webflow + Memberstack - cutting third-party dependency and enabling analytics, content discovery and UGC monetisation"
+                  tags={["Product", "H2 2024"]}
+                  href="/cases/personal-account-migration"
                 />
                 <Card
-                  title="Settings"
+                  imageSrc="/covers/job-board.svg"
+                  title="Subscription UX"
                   subtitle="Built an in-house personal account to streamline UX and reduce support tickets by 65%"
-                  tags={["UX", "Design System", "Product Strategy"]}
-                  href="/projects/unified-personal-account"
+                  tags={["Product", "Q4 2024"]}
+                  href="/cases/subscription-ux"
                 />
               </div>
             </div>
