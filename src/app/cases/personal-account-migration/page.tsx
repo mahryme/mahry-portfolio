@@ -11,22 +11,22 @@ import React from 'react';
 export default function PersonalAccount() {
 
     const sliderInitial: Slide[] = [
-        { src: "/images/case-1/mvp-dashboard.svg", caption: "MVP dashboard" },
-        { src: "/images/case-1/mvp-lectures.svg", caption: "MVP Lectures Library page" },
-        { src: "/images/case-1/mvp-ugc.svg", caption: "MVP UGC Library page" },
+        { src: "/images/acc/mvp-dash.webp", caption: "MVP dashboard" },
+        { src: "/images/acc/mvp-lects.webp", caption: "MVP Lectures Library page" },
+        { src: "/images/acc/mvp-ugc.webp", caption: "MVP UGC Library page" },
       ];
 
       const sliderRefine: Slide[] = [
-        { src: "/images/case-1/refinement-dashboard.svg", caption: "Refined dashboard" },
-        { src: "/images/case-1/refinement-lectures.svg", caption: "Refined filtering for Lecture Library" },
-        { src: "/images/case-1/refinement-ugc.svg", caption: "Enhanced filtering for UGC Library" },
+        { src: "/images/acc/refine-dash.webp", caption: "Refined dashboard" },
+        { src: "/images/acc/refine-lects.webp", caption: "Refined filtering for Lecture Library" },
+        { src: "/images/acc/refine-ugc.webp", caption: "Enhanced filtering for UGC Library" },
       ];
 
       const sliderFinal: Slide[] = [
-        { src: "/images/case-1/final-dashboard.svg", caption: "Final version of the dashboard" },
-        { src: "/images/case-1/final-lectures.svg", caption: "Final Lectures Library page" },
-        { src: "/images/case-1/final-lecture.svg", caption: "Final Lecture page" },
-        { src: "/images/case-1/final-playlists.svg", caption: "Playlists with the upsell banner for our course" },
+        { src: "/images/acc/final-dash.webp", caption: "Home page" },
+        { src: "/images/acc/lects-mob.webp", caption: "Lecture discovery" },
+        { src: "/images/acc/final-lect.webp", caption: "Lecture page" },
+        { src: "/images/acc/final-playlists.webp", caption: "Playlists with the upsell banner for our course" },
       ];
 
     return(
@@ -58,10 +58,10 @@ export default function PersonalAccount() {
                         <figure className="bg-cont-secondary p-1 rounded-3xl">
                             <div className="relative w-full aspect-[440/277.68]">
                                 <Image
-                                    src="/images/case-1/lectures-page.svg"
+                                    src="/images/acc/lects-p.webp"
                                     alt="Lectures Page"
                                     fill
-                                    loading="lazy"
+                                    loading="eager"
                                     className="object-cover"
                                 />
                             </div>
@@ -94,10 +94,10 @@ export default function PersonalAccount() {
                         <figure className="bg-cont-secondary p-1 rounded-3xl shadow-xs">
                             <div className="relative w-full aspect-[440/277.68]">
                                 <Image
-                                    src="/images/case-1/kwiga-screen.png"
+                                    src="/images/acc/kwiga-scr.webp"
                                     alt="Our Lectures Library page on Kwiga"
                                     fill
-                                    loading="lazy"
+                                    loading="eager"
                                     className="object-cover"
                                 />
                             </div>

@@ -22,21 +22,21 @@ export default function HomePage() {
               <h4 className="text-h4 font-semibold">Cases</h4>
               <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-5">
                 <Card
-                  imageSrc="/covers/job-board-cover.svg"
+                  imageSrc="/covers/job-board-cover.webp"
                   title="Job Board"
                   subtitle="Embedded a fully responsive job board into our lecture library to drive course upsells - launched with 24 live vacancies and a 15% click-through rate to related lectures"
                   tags={["Product", "Q1-Q2 2025"]}
                   href="/cases/job-board"
                 />
                 <Card
-                  imageSrc="/covers/account-cover.svg"
+                  imageSrc="/covers/account-cover.webp"
                   title="Personal Account Migration"
                   subtitle="Moved off Kwiga to Webflow + Memberstack - cutting third-party dependency and enabling analytics, content discovery and UGC monetisation"
                   tags={["Product", "H2 2024"]}
                   href="/cases/personal-account-migration"
                 />
                 <Card
-                  imageSrc="/covers/job-board.svg"
+                  imageSrc="/covers/job-board.webp"
                   title="Subscription UX"
                   subtitle="Built an in-house personal account to streamline UX and reduce support tickets by 65%"
                   tags={["Product", "Q4 2024"]}
