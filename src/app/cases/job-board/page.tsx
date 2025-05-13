@@ -11,10 +11,10 @@ import React from 'react';
 export default function JobBoard() {
 
     const sliderMain: Slide[] = [
-        { src: "/images/job/claude-artefact.webp", caption: "MVP dashboard" },
-        { src: "/images/job/job-vac-p.webp", caption: "MVP Lectures Library page" },
-        { src: "/images/job/job-lect-recom.webp", caption: "MVP UGC Library page" },
-        { src: "/images/job/job-vac-mob.webp", caption: "MVP UGC Library page" },
+        { src: "/images/job/claude-artefact.webp", caption: "Claude Artifact" },
+        { src: "/images/job/job-vac-p.webp", caption: "Vacancy page" },
+        { src: "/images/job/job-lect-recom.webp", caption: "Relevant lectures at the bottom of each vacancy" },
+        { src: "/images/job/job-vac-mob.webp", caption: "Vacancy page on mobile" },
       ];
 
     return(
@@ -26,7 +26,7 @@ export default function JobBoard() {
                     <div className="flex flex-col gap-6">
                         <div className="flex flex-col gap-3">
                             <h2 className="text-h2 font-semibold">Job Board Integration</h2>
-                            <p className="text-body-md font-regular">We built a job board inside our lecture library to primarily embed course upsells. In six weeks, we launched a fully responsive job portal, published 64 vacancies and drove a 15% click-through rate from job listings into related lectures.</p>
+                            <p className="text-body-md font-regular">We built a job board inside our lectures library to primarily boost lecture library conversions. In six weeks, we launched a fully responsive job board with 64 published vacancies and drove a 15% click-through rate from job listings into related lectures.</p>
                         </div>
                         <div className="flex flex-col gap-2">
                             <div className="grid grid-cols-3 gap-5">
@@ -60,24 +60,27 @@ export default function JobBoard() {
                     {/* Problem & Context Section */}
                     <div className="flex flex-col gap-4">
                         <h4 className="text-h4 font-semibold">Problem & Context</h4>
-                        <div className="flex flex-col gap-1">
+                        <div className="flex flex-col gap-2">
                             <p className="text-body-md text-text-primary">
-                                <span className="font-semibold">The Instapreneurs</span> is a subscription-based learning platform for junior-to-mid marketing and SMM professionals. After finishing courses, our learners repeatedly asked “What&apos;s next?” - and businesses began reaching out for access to our specialist pool. So we needed to:
+                                <span className="font-semibold">The Instapreneurs</span> is a subscription-based learning platform for junior-to-mid marketing and SMM professionals. After finishing courses, our learners repeatedly asked “What&apos;s next?” - and businesses began reaching out for access to our specialist pool.
                             </p>
-                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-secondary">
-                                <li>
-                                  Keep users in-app after they upskill
-                                </li>
-                                <li>
-                                  Showcase relevant vacancies alongside lectures
-                                </li>
-                                <li>
-                                  Drive in-platform lecture upsells
-                                </li>
-                                <li>
-                                  Enable an easy “post a job” flow for employers
-                                </li>
-                            </ul>
+                            <div className="flex flex-col gap-1">
+                                <p className="text-body-md font-semibold">So we needed to:</p>
+                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-secondary">
+                                    <li>
+                                        Retain users after they upskill
+                                    </li>
+                                    <li>
+                                        Showcase relevant vacancies alongside lectures
+                                    </li>
+                                    <li>
+                                        Drive lecture upsells
+                                    </li>
+                                    <li>
+                                        Enable an easy “post a job” flow for employers
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
@@ -119,7 +122,7 @@ export default function JobBoard() {
                     <div className="flex flex-col gap-4">
                         <h4 className="text-h4 font-semibold">My role</h4>
                         <p className="text-body-md text-text-primary">
-                          I worked with the whole team including founder Veronika, PM Viktoriia, dev Oleh and marketing Oleksandra. I nailed down requirements, designed hi-fi screens and a prototype in Figma while maintaining our existing design-system. Then I teamed up with dev to launch the portal with CMS-driven listings and upsell banners.
+                          I collaborated with the whole team including founder Veronika, PM Viktoriia, dev Oleh and marketing Oleksandra. I nailed down requirements, designed hi-fi screens and a prototype in Figma while maintaining our existing design-system. Then I teamed up with dev to launch the portal with CMS-driven listings and upsell banners.
                         </p>
                     </div>
 
@@ -161,10 +164,10 @@ export default function JobBoard() {
                         <h4 className="text-h4 font-semibold">Solution</h4>
                         <div className="flex flex-col gap-2">
                           <p className="text-body-md text-text-primary">
-                            At first place, we wanted to keep it very simple and handful for users. Knowing all the basic requirements and having done some quick low-fidelity wireframes, I kicked off by using Claude AI to generate some quick artefacts in seconds and discuss some basic ideas with my team. After validating them, I used it as a base to design our board that conformed to our vision, requirements and information that we were able to require from the companies. 
+                            At first place, we wanted to keep it very simple and handful for users. Knowing all the basic requirements and having done some quick low-fidelity wireframes, I kicked off by using Claude AI to generate some quick artifacts in seconds and discuss some basic ideas with my team. After validating them, I used it as a base to design our board that conformed to our vision, requirements and any relevant information that we were able to obtain from the companies. 
                           </p>
                           <p className="text-body-md text-text-primary">
-                            Finally, I partnered closely with development to wire up a headless CMS for live listings, embed upsell slots and roll out the new experience across desktop and mobile - all within our six-week timeline.
+                            Finally, I partnered closely with development to construct a CMS for live listings, embed upsell slots and Ship the new experience across desktop and mobile - all within our six-week timeline.
                           </p>
                         </div>
                         <Slider slides={sliderMain} />

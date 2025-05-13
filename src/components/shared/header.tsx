@@ -31,11 +31,7 @@ export default function Header () {
                                     <ArrowUpRight className="w-6 h-6 text-text-secondary -ml-1"/>
                                 </Link>
                             </Button>
-                            <Button asChild variant="ghost" size="default">
-                                <Link href="/about" className="items-center gap-1">
-                                    About me
-                                </Link>
-                            </Button>
+                            
                         </div>
                         <Link href="/contact">
                             <Button variant="accent">
@@ -58,7 +54,7 @@ export default function Header () {
                         </Button>
                     </div>
                     <Button asChild variant="accent" size="default">
-                        <Link href="https://www.linkedin.com/in/mahry00/" target="_blank">                        >
+                        <Link href="https://www.linkedin.com/in/mahry00/" target="_blank">
                             Let&apos;s connect!
                         </Link>
                     </Button>

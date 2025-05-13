@@ -277,7 +277,7 @@ export default function PersonalAccount() {
                     <div className="flex flex-col gap-4">
                         <h4 className="text-h4 font-semibold">Outcome</h4>
                         <p className="text-body-md text-text-secondary">
-                            Owning our personal-account UX end-to-end led to<span className="font-semibold text-text-primary">a 65% drop in support tickets, 40% higher onboarding completion,</span> and <span className="font-semibold text-text-primary">50% more UGC engagement</span> as well as <span className="font-semibold text-text-primary">gave us richer data on user needs</span> - - all on a foundation built to scale.
+                            Owning our personal-account UX end-to-end led to <span className="font-semibold text-text-primary">a 65% drop in support tickets, 40% higher onboarding completion,</span> and <span className="font-semibold text-text-primary">50% more UGC engagement</span> as well as <span className="font-semibold text-text-primary">gave us richer data on user needs</span> - - all on a foundation built to scale.
                         </p>
                         <div className="flex flex-col gap-1">
                             <p className="text-body-md font-semibold">Key takeaways:</p>
@@ -303,14 +303,14 @@ export default function PersonalAccount() {
                         </blockquote>
                     </div>
                     <Link
-                        href="/cases/job-board"
+                        href="/cases/subscription-ux"
                         className="p-4 bg-action-secondary text-action-secondary-text border-action-secondary-border border-1 rounded-2xl shadow-xs cursor-pointer transition-all duration-400 ease-out hover:bg-action-secondary-hovered hover:shadow-none"
                         >
                         <div className="flex items-center justify-between">
                             <div className="flex flex-col gap-1">
                                 <p className="text-body-s font-medium text-text-secondary">Next Case</p>
                                 <h5 className="text-h5 font-semibold text-text-primary">
-                                    Job Board Integration
+                                    Subscription UX
                                 </h5>
                             </div>
                             <ArrowRight className="h-8 w-8 text-action-secondary-text" aria-hidden="true" />

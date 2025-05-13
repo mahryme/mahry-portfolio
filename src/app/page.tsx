@@ -12,7 +12,7 @@ export default function HomePage() {
           <Container>
             <div className="max-w-2xl flex flex-col gap-3">
               <h2 className="text-h2 font-semibold">Hi 👋 I&apos;m a product designer who loves building systems and helping things grow</h2>
-              <p className="text-body-lg font-regular">I&apos;m passionate about designing cool things that work and make an impact. Also, I&apos;m learning Next.js so I can code my own prototypes and components.</p>
+              <p className="text-body-lg font-regular">I&apos;m passionate about designing cool things that work and make an impact. Also, I&apos;m learning Next.js to code my own prototypes and systems.</p>
             </div>
           </Container>
         </section>
@@ -23,8 +23,8 @@ export default function HomePage() {
               <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-5">
                 <Card
                   imageSrc="/covers/job-board-cover.webp"
-                  title="Job Portal Integration"
-                  subtitle="Embedded a job board into our lecture library to drive lecture upsells - 64 live vacancies and a 15% click-through rate to related lectures"
+                  title="Job Board Integration"
+                  subtitle="Embedded a job board into a growing lecture library to drive lecture upsells - 64 live vacancies and a 15% click-through rate to related lectures"
                   tags={["Product", "Q1-Q2 2025"]}
                   href="/cases/job-board"
                 />
@@ -38,7 +38,7 @@ export default function HomePage() {
                 <Card
                   imageSrc="/images/subs/sub-ver-2-eng.webp"
                   title="Subscription UX"
-                  subtitle="Optimised our subscription management page to reduce subscription-related support tickets by 44% within low-code stack limitations"
+                  subtitle="Optimised a subscription management page to reduce subscription-related support tickets by 44% within low-code stack limitations"
                   tags={["Product", "Q4 2024"]}
                   href="/cases/subscription-ux"
                 />

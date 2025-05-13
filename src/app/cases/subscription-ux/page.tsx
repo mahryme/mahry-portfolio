@@ -57,7 +57,7 @@ export default function JobBoard() {
                                 <span className="font-semibold">The Instapreneurs</span> is a subscription-based learning platform for digital specialists that offers a range of lectures from SMM to Design that help users update their skills to become more employable (one lecture=one skill). Apart from Lectures Library, it has an embedded UGC Library with a separate subscription, but managed within one personal account. 
                             </p>
                             <p className="text-body-md text-text-primary">
-                              Our support team experienced an increasing volume of basic subscription-related inquiries due to users being unable to find essential information and manage their subscriptions effectively through the interface of the personal account.
+                              Our support team experienced <span className="font-semibold">an increasing volume of basic subscription-related inquiries</span> due to users being unable to find essential information and manage their subscriptions effectively through the interface of the personal account.
                             </p>
                         </div>
                     </div>
@@ -120,8 +120,8 @@ export default function JobBoard() {
                         <h4 className="text-h4 font-semibold">Solution</h4>
                         <div className="flex flex-col gap-8">
                           <div className="flex flex-col gap-4">
-                            <p className="text-body-md text-text-secondary">
-                              <span className="font-semibold">In our first iteration,</span> we sketched out a richer “My Subscription” page by testing a third-party solution on a free trial. Users could see their plan name, status, start & renewal dates, and all management actions lived in one place. However, after reviewing costs, we decided the integration wasn&apos;t sustainable.
+                            <p className="text-body-md text-text-primary">
+                              <span className="font-semibold">In our first iteration,</span> we sketched out a richer “My Subscription” page by <span className="font-semibold">testing a third-party solution on a free trial.</span> Users could see their plan name, status, start & renewal dates, and all management actions lived in one place. However, after reviewing costs, we decided the integration wasn&apos;t sustainable.
                             </p>
                             <div className="flex flex-col gap-3">
                               <figure className="bg-cont-secondary p-1 rounded-3xl">
@@ -139,8 +139,8 @@ export default function JobBoard() {
                             </div>
                           </div>
                           <div className="flex flex-col gap-4">
-                            <p className="text-body-md text-text-secondary">
-                              <span className="font-semibold">In our second iteration,</span> after deciding not to purchase the paid extension, I focused purely on clarity and consistency. I renamed the page “My Subscription,” unified terminology across the interface and rewrote the cancel buttons to explicitly say “Cancel Plan – Lecture Library” and “Cancel Plan – UGC.” All subscription controls now sit together under “Advanced Settings,” with a single “Upgrade” action below. Finally, we added a clear “Contact support team” link for corporate subscriptions.
+                            <p className="text-body-md text-text-primary">
+                              <span className="font-semibold">In our second iteration,</span> after deciding not to purchase the paid extension, I focused purely on <span className="font-semibold">clarity and consistency.</span> I renamed the page “My Subscription,” unified terminology across the interface and rewrote the cancel buttons to explicitly say “Cancel Plan – Lecture Library” and “Cancel Plan – UGC.” All subscription controls now sit together under “Advanced Settings,” with a single “Upgrade” action below. Finally, we added a clear “Contact support team” link for corporate subscriptions.
                             </p>
                             <div className="flex flex-col gap-3">
                               <figure className="bg-cont-secondary p-1 rounded-3xl">
