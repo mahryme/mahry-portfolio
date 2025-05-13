@@ -75,11 +75,11 @@ export default function JobBoard() {
                       <h4 className="text-h4 font-semibold">Understanding the problem</h4>
                       <div className="flex flex-col gap-2">
                         <p className="text-body-md text-text-primary">
-                          I looked at the current "Plan" page in the Personal Account and identified key issues that might affect user experience:
+                          I looked at the current &quot;Plan&quot; page in the Personal Account and identified key issues that might affect user experience:
                         </p>
                         <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
                           <li>
-                            Inconsistent terminology between "Plans" and "Subscription"
+                            Inconsistent terminology between &quot;Plans&quot; and &quot;Subscription&quot;
                           </li>
                           <li>
                             Multiple confusing buttons for subscription management
@@ -140,7 +140,7 @@ export default function JobBoard() {
                           </div>
                           <div className="flex flex-col gap-4">
                             <p className="text-body-md text-text-primary">
-                              <span className="font-semibold">In our second iteration,</span> after deciding not to purchase the paid extension, I focused purely on <span className="font-semibold">clarity and consistency.</span> I renamed the page “My Subscription,” unified terminology across the interface and rewrote the cancel buttons to explicitly say “Cancel Plan – Lecture Library” and “Cancel Plan – UGC.” All subscription controls now sit together under “Advanced Settings,” with a single “Upgrade” action below. Finally, we added a clear “Contact support team” link for corporate subscriptions.
+                              <span className="font-semibold">In our second iteration,</span> after deciding not to purchase the paid extension, I focused purely on <span className="font-semibold">clarity and consistency.</span> I renamed the page &quot;My Subscription&quot;", unified terminology across the interface and rewrote the cancel buttons to explicitly say “Cancel Plan - Lecture Library” and “Cancel Plan - UGC.” All subscription controls now sit together under “Advanced Settings,” with a single “Upgrade” action below. Finally, we added a clear “Contact support team” link for corporate subscriptions.
                             </p>
                             <div className="flex flex-col gap-3">
                               <figure className="bg-cont-secondary p-1 rounded-3xl">
@@ -168,7 +168,7 @@ export default function JobBoard() {
                             Terminology unified across the interface for zero confusion
                           </li>
                           <li>
-                            “Where&apos;s my renewal date?” and “How do I cancel?” tickets <span className="font-semibold text-green-600">fell by 40%</span>
+                            &quot;Where&apos;s my renewal date?&quot; and &quot;How do I cancel?&quot; tickets <span className="font-semibold text-green-600">fell by 40%</span>
                           </li>
                           <li>
                             The streamlined flow <span className="font-semibold text-green-600">saved ~2 hours/week of support time</span>
