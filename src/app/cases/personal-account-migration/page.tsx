@@ -60,8 +60,8 @@ export default function PersonalAccount() {
                                 <Image
                                     src="/images/acc/lects-p.webp"
                                     alt="Lectures Page"
+                                    priority={true}
                                     fill
-                                    loading="eager"
                                     className="object-cover"
                                 />
                             </div>

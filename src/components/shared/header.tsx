@@ -56,14 +56,9 @@ export default function Header () {
                                 <ArrowUpRight className="w-6 h-6 text-text-secondary -ml-1"/>
                             </Link>
                         </Button>
-                        <Button asChild variant="ghost" size="default">
-                            <Link href="/about">
-                                About me
-                            </Link>
-                        </Button>
                     </div>
                     <Button asChild variant="accent" size="default">
-                        <Link href="/about">
+                        <Link href="https://www.linkedin.com/in/mahry00/" target="_blank">                        >
                             Let&apos;s connect!
                         </Link>
                     </Button>

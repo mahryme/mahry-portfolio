@@ -23,8 +23,8 @@ export default function HomePage() {
               <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-5">
                 <Card
                   imageSrc="/covers/job-board-cover.webp"
-                  title="Job Board"
-                  subtitle="Embedded a fully responsive job board into our lecture library to drive course upsells - launched with 24 live vacancies and a 15% click-through rate to related lectures"
+                  title="Job Portal Integration"
+                  subtitle="Embedded a job board into our lecture library to drive lecture upsells - 64 live vacancies and a 15% click-through rate to related lectures"
                   tags={["Product", "Q1-Q2 2025"]}
                   href="/cases/job-board"
                 />
@@ -36,9 +36,9 @@ export default function HomePage() {
                   href="/cases/personal-account-migration"
                 />
                 <Card
-                  imageSrc="/covers/job-board.webp"
+                  imageSrc="/images/subs/sub-ver-2-eng.webp"
                   title="Subscription UX"
-                  subtitle="Built an in-house personal account to streamline UX and reduce support tickets by 65%"
+                  subtitle="Optimised our subscription management page to reduce subscription-related support tickets by 44% within low-code stack limitations"
                   tags={["Product", "Q4 2024"]}
                   href="/cases/subscription-ux"
                 />
