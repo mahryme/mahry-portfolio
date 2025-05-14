@@ -131,32 +131,15 @@ export default function JobBoard() {
                         <h4 className="text-h4 font-semibold">Research & Key Insights</h4>
                         <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
                             <li>
-                              <span className="font-semibold">Veronika (Founder)</span> to align on business goals
+                                 <span className="font-semibold">Learner survey (N = 50):</span> 80% would click a “Recommended Lecture” on a job page
                             </li>
                             <li>
-                              <span className="font-semibold">Viktoriia (PM)</span> who managed Kwiga day-to-day
+                                <span className="font-semibold">Competitive analysis:</span> Users expect keyword search, multi-select filters and straightforward CTAs
                             </li>
                             <li>
-                              <span className="font-semibold">Oleksandra (Support Manager)</span> for user reports and support tickets
+                                <span className="font-semibold">Stakeholder input:</span> Employers wanted a simple “Post a Job” form and quick visibility into our candidate pool
                             </li>
-                            <li>
-                              <span className="font-semibold">Oleh (Developer)</span> to map out technical possibilities
-                            </li>
-                          </ul>
-                        <div className="flex flex-col gap-2">
-                            <h5 className="text-h5 font-semibold">Key insights</h5>
-                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
-                                <li>
-                                    <span className="font-semibold">Learner survey (N = 50):</span> 80% would click a “Recommended Lecture” on a job page
-                                </li>
-                                <li>
-                                    <span className="font-semibold">Competitive analysis:</span> Users expect keyword search, multi-select filters and straightforward CTAs
-                                </li>
-                                <li>
-                                    <span className="font-semibold">Stakeholder input:</span> Employers wanted a simple “Post a Job” form and quick visibility into our candidate pool
-                                </li>
-                            </ul>
-                        </div>  
+                        </ul>  
                     </div>
 
                     {/* Solution */}
