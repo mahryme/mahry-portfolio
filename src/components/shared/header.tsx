@@ -31,13 +31,6 @@ export default function Header () {
                                     <ArrowUpRight className="w-6 h-6 text-text-secondary -ml-1"/>
                                 </Link>
                             </Button>
-                            <Button asChild variant="ghost" size="default">
-                                <Link href="/about">
-                                    <Metis className="h-5 w-5"/>
-                                    Metis
-                                    <ArrowUpRight className="w-6 h-6 text-text-secondary -ml-1"/>
-                                </Link>
-                            </Button>
                         </div>
                         <Link href="https://www.linkedin.com/in/mahry00/" target="_blank">
                             <Button variant="accent">
