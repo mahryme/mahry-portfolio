@@ -55,7 +55,7 @@ export function Slider({
         {slides.map((slide, i) => (
           <SwiperSlide key={i} className="w-auto max-w-[440px]">
             <div className="flex flex-col gap-3">
-                <figure className="bg-cont-secondary p-1 rounded-2xl md:rounded-3xl">
+                <figure className="bg-cont-secondary p-1 rounded-2xl">
                     <div className="relative w-full aspect-[440/277.68]">
                         <Image
                             src={slide.src}
