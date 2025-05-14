@@ -55,7 +55,7 @@ export default function PersonalAccount() {
                         </div>
                     </div>
                     <div className="flex flex-col gap-3">
-                        <figure className="bg-cont-secondary p-1 rounded-3xl">
+                        <figure className="bg-cont-secondary p-1 rounded-2xl">
                             <div className="relative w-full aspect-[440/277.68]">
                                 <Image
                                     src="/images/acc/lects-p.webp"
@@ -91,7 +91,7 @@ export default function PersonalAccount() {
                     </div>
 
                     <div className="flex flex-col gap-3">
-                        <figure className="bg-cont-secondary p-1 rounded-3xl shadow-xs">
+                        <figure className="bg-cont-secondary p-1 rounded-2xl">
                             <div className="relative w-full aspect-[440/277.68]">
                                 <Image
                                     src="/images/acc/kwiga-scr.webp"

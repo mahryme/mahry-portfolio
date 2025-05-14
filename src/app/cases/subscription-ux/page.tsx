@@ -35,7 +35,7 @@ export default function JobBoard() {
                         </div>
                     </div>
                     <div className="flex flex-col gap-3">
-                        <figure className="bg-cont-secondary p-1 rounded-3xl">
+                        <figure className="bg-cont-secondary p-1 rounded-2xl">
                             <div className="relative w-full aspect-[440/277.68]">
                                 <Image
                                     src="/images/subs/sub-ver-2-ua.webp"
@@ -101,7 +101,7 @@ export default function JobBoard() {
                     </div>
 
                     <div className="flex flex-col gap-3">
-                        <figure className="bg-cont-secondary p-1 rounded-3xl">
+                        <figure className="bg-cont-secondary p-1 rounded-2xl">
                             <div className="relative w-full aspect-[440/277.68]">
                                 <Image
                                     src="/images/subs/problem.webp"
@@ -124,7 +124,7 @@ export default function JobBoard() {
                               <span className="font-semibold">In our first iteration,</span> we sketched out a richer “My Subscription” page by <span className="font-semibold">testing a third-party solution on a free trial.</span> Users could see their plan name, status, start & renewal dates, and all management actions lived in one place. However, after reviewing costs, we decided the integration wasn&apos;t sustainable.
                             </p>
                             <div className="flex flex-col gap-3">
-                              <figure className="bg-cont-secondary p-1 rounded-3xl">
+                              <figure className="bg-cont-secondary p-1 rounded-2xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                   <Image
                                     src="/images/subs/sub-ver-1.webp"
@@ -143,7 +143,7 @@ export default function JobBoard() {
                               <span className="font-semibold">In our second iteration,</span> after deciding not to purchase the paid extension, I focused purely on <span className="font-semibold">clarity and consistency.</span> I renamed the page &quot;My Subscription&quot;, unified terminology across the interface and rewrote the cancel buttons to explicitly say &quot;Cancel Plan - Lecture Library&quot; and &quot;Cancel Plan - UGC&quot;. All subscription controls now sit together under &quot;Advanced Settings&quot;, with a single &quot;Upgrade&quot; action below. Finally, I added a clear &quot;Contact support team&quot; link for corporate subscriptions.
                             </p>
                             <div className="flex flex-col gap-3">
-                              <figure className="bg-cont-secondary p-1 rounded-3xl">
+                              <figure className="bg-cont-secondary p-1 rounded-2xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                   <Image
                                     src="/images/subs/sub-ver-2-eng.webp"
