@@ -10,7 +10,7 @@ export default function Footer () {
                 <p className="max-w-[12.5rem] text-body-xs font-semibold text-text-tertiary">Designed with curiosity by Maksym Hrytsenko © 2025</p>
                 <div className="flex items-center gap-2">
                     <Button asChild variant="icon" size="icon">
-                        <Link href="https://www.linkedin.com/in/maksymhrytsenko/" target="_blank">
+                        <Link href="https://www.linkedin.com/in/mahry00/" target="_blank">
                             <Linkedin className="h-5 w-5"/>
                         </Link>
                     </Button>

@@ -31,7 +31,6 @@ export default function Header () {
                                     <ArrowUpRight className="w-6 h-6 text-text-secondary -ml-1"/>
                                 </Link>
                             </Button>
-                            
                         </div>
                         <Link href="/contact">
                             <Button variant="accent">

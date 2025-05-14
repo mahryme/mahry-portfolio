@@ -3,6 +3,8 @@ import Header from '@/components/shared/header';
 import Footer from '@/components/shared/footer';
 import Card from '@/components/shared/card';
 
+
+
 export default function HomePage() {
   return(
     <>
