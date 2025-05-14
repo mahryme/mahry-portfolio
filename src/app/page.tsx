@@ -2,8 +2,6 @@ import { Container } from "@/components/container"
 import Header from '@/components/shared/header';
 import Footer from '@/components/shared/footer';
 import Card from '@/components/shared/card';
-import Link from 'next/link';
-import { Metis } from "@/components/shared/icons"
 
 export default function HomePage() {
   return(
