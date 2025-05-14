@@ -2,8 +2,8 @@ import { Container } from "@/components/container"
 import Header from '@/components/shared/header';
 import Footer from '@/components/shared/footer';
 import Card from '@/components/shared/card';
-
-
+import Link from 'next/link';
+import { Metis } from "@/components/shared/icons"
 
 export default function HomePage() {
   return(
@@ -12,9 +12,10 @@ export default function HomePage() {
       <main className="flex-1 pb-16 md:pb-0">
         <section className="flex items-center justify-center">
           <Container>
-            <div className="max-w-2xl flex flex-col gap-3">
-              <h2 className="text-h2 font-semibold">Hi 👋 I&apos;m a product designer who loves building systems and helping things grow</h2>
-              <p className="text-body-lg font-regular">I&apos;m passionate about designing cool things that work and make an impact. Also, I&apos;m learning Next.js to code my own prototypes and systems.</p>
+            <div className="max-w-4xl flex flex-col gap-3 text-text-primary">
+              <h2 className="text-h2 font-semibold text-balance">Hi 👋 I&apos;m a product designer who loves building systems and helping things grow</h2>
+              <p className="text-body-lg font-regular text-balance">I&apos;m passionate about designing cool things that work and make an impact. Also, I&apos;m learning Next.js to code my own prototypes and components.</p>
+              <p className="text-body-lg font-regular text-balance">Together with my brother, I&apos;m developing <span className="font-semibold">Metis</span> - an AI-powered flashcard app for language learners.</p>
             </div>
           </Container>
         </section>
