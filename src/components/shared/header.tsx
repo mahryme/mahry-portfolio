@@ -32,7 +32,7 @@ export default function Header () {
                                 </Link>
                             </Button>
                         </div>
-                        <Link href="/contact">
+                        <Link href="https://www.linkedin.com/in/mahry00/" target="_blank">
                             <Button variant="accent">
                                 <span>Let&apos;s connect!</span>
                             </Button>
