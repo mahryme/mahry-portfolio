@@ -13,14 +13,14 @@ export default function Footer() {
                 <div className="flex items-center gap-2">
                     <Button asChild variant="icon" size="icon">
                         <Link
-                            href="https://www.linkedin.com/in/mahry00/"
+                            href="https://www.linkedin.com/in/mahryme/"
                             target="_blank"
                         >
                             <Linkedin className="h-5 w-5" />
                         </Link>
                     </Button>
                     <Button asChild variant="icon" size="icon">
-                        <Link href="https://github.com/mahry00" target="_blank">
+                        <Link href="https://github.com/mahryme" target="_blank">
                             <Github className="h-5 w-5" />
                         </Link>
                     </Button>
