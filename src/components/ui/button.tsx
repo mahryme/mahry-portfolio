@@ -12,7 +12,7 @@ const buttonVariants = cva(
                 accent: "bg-action-accent text-action-accent-text border-action-accent-border border-2  hover:bg-action-accent-hovered",
                 primary:
                     "bg-action-primary text-action-accent-text border-action-primary-border border-2 hover:bg-action-primary-hovered",
-                ghost: "text-action-ghost-text hover:bg-action-ghost-hovered",
+                ghost: "text-action-ghost-text shadow-none hover:bg-action-ghost-hovered",
                 icon: "bg-action-secondary text-action-secondary-text border-action-secondary-border border-2 hover:bg-action-secondary-hovered",
             },
             size: {
