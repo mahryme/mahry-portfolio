@@ -22,51 +22,105 @@ export default function About() {
                                     className="object-cover"
                                 />
                             </div>
-                            <div className="flex flex-col gap-4">
-                                <h2 className="text-h2 font-semibold text-balance">
+                            <div className="flex flex-col gap-3">
+                                <h2 className="text-h2 font-semibold">
                                     About me
                                 </h2>
-                                <p className="text-body-md">
-                                    I see design as a bridge between vision and
-                                    function which starts with the right
-                                    questions and ends with clear, useful
-                                    solutions that serve both people and
-                                    business. Over the last two years, I&apos;ve
-                                    been focused on learning by doing: mapping
-                                    user flows, shaping design systems and
-                                    improving how people interact with digital
-                                    products. Along the way, I&apos;ve picked up
-                                    low-code tools and front-end basics to
-                                    better connect design with implementation.
+                                <p className="text-body-md text-neutral-950">
+                                    <span className="font-semibold">
+                                        I&apos;m Maksym,
+                                    </span>{" "}
+                                    a 20-year-old interface designer from
+                                    Ukraine, currently based in the UK and
+                                    studying User Experience at University of
+                                    the Arts London.
                                 </p>
-                                <p className="text-body-md">
-                                    Outside of work, I keep a steady routine. I
-                                    run, eat with intention, recover in the
-                                    sauna and make time to reflect - it helps me
-                                    stay clear-headed and focused. I&apos;m also
-                                    learning Spanish daily, which reminds me
-                                    what it&apos;s like to be a learner and stay
-                                    patient with progress.
+                                <p className="text-body-md text-neutral-950">
+                                    <span className="font-semibold">
+                                        I approach
+                                    </span>{" "}
+                                    every bit of work understanding that design
+                                    is about solving problems — for users,
+                                    business, or both combined. I tend to ask a
+                                    lot of questions and listen carefully, which
+                                    I believe helps me tackle each problem
+                                    effectively. I combine systematic thinking
+                                    with intuition, which helps me generate
+                                    diverse ideas that genuinely impact
+                                    products. Beyond spending countless hours in
+                                    Figma, I&apos;m interested in basic code,
+                                    applying it to translate design systems into
+                                    development whilst communicating with
+                                    developers and documenting each token.
                                 </p>
-                                <p className="text-body-md">
-                                    Right now, I&apos;m building Metis, a
-                                    language flashcard app, with my talented
-                                    younger brother who does a lot of coding. It
-                                    all started from my own frustration with
-                                    messy learning tools. Now we&apos;re trying
-                                    to make studying languages more direct, more
-                                    efficient and more enjoyable integrating AI
-                                    to cut down the noise and let people focus
-                                    on learning and progress itself.
+                                <p className="text-body-md text-neutral-950">
+                                    <span className="font-semibold">
+                                        When I&apos;m not designing,
+                                    </span>{" "}
+                                    you&apos;ll likely find me lacing up my
+                                    running shoes. I&apos;m actively training
+                                    for 10k and half-marathon distances,
+                                    maintaining a structured routine (follow me
+                                    on{" "}
+                                    <a
+                                        href="https://www.strava.com/athletes/138692749"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="font-semibold text-blue-600 transition-all hover:text-blue-800 underline"
+                                    >
+                                        Strava
+                                    </a>
+                                    ). There&apos;s something about the rhythm
+                                    of running that mirrors good design — both
+                                    require patience, persistence and the
+                                    ability to see the bigger picture whilst
+                                    focusing on each step.
                                 </p>
-                                <p className="text-body-md">
-                                    This September, I&apos;ll start studying UX
-                                    Design at University of the Arts London.
-                                    I&apos;m also learning Next.js and Tailwind
-                                    CSS to prototype more tangibly and speak the
-                                    language of engineers (at least a bit). I
-                                    want to grow into a designer who makes an
-                                    impact and inspire others.
+                                <p className="text-body-md text-neutral-900">
+                                    I&apos;m also working on{" "}
+                                    <span className="font-semibold">
+                                        a passion project
+                                    </span>{" "}
+                                    called{" "}
+                                    <a
+                                        href="https://metis.works"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="font-semibold text-blue-600 transition-all hover:text-blue-800 underline"
+                                    >
+                                        Metis
+                                    </a>{" "}
+                                    — a language learning flashcard app I&apos;m
+                                    developing with my younger brother.
+                                    It&apos;s our attempt to make language
+                                    learning more efficient through AI, not only
+                                    for me as an active Spanish learner, but for
+                                    other language learners too.
+                                </p>
+                                <p className="text-body-md text-neutral-900">
+                                    <span className="font-semibold">
+                                        What drives me
+                                    </span>{" "}
+                                    is creating experiences that matter. I
+                                    believe the best solutions come from
+                                    understanding what people actually need, not
+                                    what we think they should want —
+                                    particularly since products tend to fail
+                                    when they solve problems that weren&apos;t
+                                    there to begin with.
+                                </p>
+                                <p className="text-body-md text-neutral-900">
+                                    <span className="font-semibold">
+                                        Currently I&apos;m looking for
+                                        opportunities
+                                    </span>{" "}
+                                    where I can contribute to meaningful
+                                    projects whilst continuing to learn and
+                                    grow. If you&apos;re building something that
+                                    could make a positive impact, I&apos;d love
+                                    to hear about it — either contributing to
+                                    your design system or generating fresh
+                                    product ideas.
                                 </p>
                             </div>
                         </Container>

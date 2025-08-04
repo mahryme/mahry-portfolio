@@ -36,7 +36,7 @@ export default function Header() {
                                 >
                                     <Metis className="h-5 w-5" />
                                     Metis
-                                    <ArrowUpRight className="w-6 h-6 text-text-secondary -ml-1" />
+                                    <ArrowUpRight className="w-5 h-5 text-text-secondary -ml-1" />
                                 </Link>
                             </Button>
                             <Button asChild variant="ghost" size="default">
@@ -71,7 +71,7 @@ export default function Header() {
                             >
                                 <Metis className="h-5 w-5" />
                                 Metis
-                                <ArrowUpRight className="w-6 h-6 text-text-secondary -ml-1" />
+                                <ArrowUpRight className="w-5 h-5 text-text-secondary -ml-1" />
                             </Link>
                         </Button>
                         <Button asChild variant="ghost" size="default">
