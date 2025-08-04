@@ -11,19 +11,20 @@ export default function HomePage() {
                 <section className="flex items-center justify-center">
                     <Container>
                         <div className="max-w-4xl flex flex-col gap-3 text-text-primary">
-                            <h2 className="text-h2 font-semibold text-balance">
+                            <h2 className="text-h2 font-semibold text-pretty">
                                 Hi 👋 I&apos;m a product designer who loves
                                 building systems and helping things grow
                             </h2>
-                            <p className="text-body-lg font-regular text-balance">
-                                I&apos;m passionate about designing cool things
-                                that work and make an impact. Also, I&apos;m
-                                learning Next.js to code my own prototypes and
-                                components.
+                            <p className="text-body-lg font-regular text-pretty">
+                                I create experiences that solve real problems by
+                                asking questions, listening carefully, and
+                                combining systematic thinking with intuition.
+                                I'm interested in bridging design with
+                                development by familiarising myself with code.
                             </p>
-                            <p className="text-body-lg font-regular text-balance">
-                                Together with my brother, I&apos;m developing{" "}
-                                <span className="font-semibold">Metis</span> -
+                            <p className="text-body-lg font-regular text-pretty">
+                                Together with my brother, I'm developing{" "}
+                                <span className="font-semibold">Metis</span> —
                                 an AI-powered flashcard app for language
                                 learners.
                             </p>
