@@ -19,11 +19,11 @@ export default function HomePage() {
                                 I create experiences that solve real problems by
                                 asking questions, listening carefully, and
                                 combining systematic thinking with intuition.
-                                I'm interested in bridging design with
+                                I&apos;m interested in bridging design with
                                 development by familiarising myself with code.
                             </p>
                             <p className="text-body-lg font-regular text-pretty">
-                                Together with my brother, I'm developing{" "}
+                                Together with my brother, I&apos;m developing{" "}
                                 <span className="font-semibold">Metis</span> —
                                 an AI-powered flashcard app for language
                                 learners.
