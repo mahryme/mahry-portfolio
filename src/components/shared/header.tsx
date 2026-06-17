@@ -3,8 +3,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/container";
-import { ArrowUpRight } from "lucide-react";
-import { Metis } from "@/components/shared/icons";
 
 export default function Header() {
     return (
