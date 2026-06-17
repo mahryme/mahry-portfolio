@@ -22,12 +22,6 @@ export default function HomePage() {
                                 I&apos;m interested in bridging design with
                                 development by familiarising myself with code.
                             </p>
-                            <p className="text-body-lg font-regular text-pretty">
-                                Together with my brother, I&apos;m developing{" "}
-                                <span className="font-semibold">Metis</span> —
-                                an AI-powered flashcard app for language
-                                learners.
-                            </p>
                         </div>
                     </Container>
                 </section>

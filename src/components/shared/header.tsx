@@ -30,17 +30,6 @@ export default function Header() {
                         <div className="flex items-center gap-1">
                             <Button asChild variant="ghost" size="default">
                                 <Link
-                                    href="https://metis.works/"
-                                    target="_blank"
-                                    className="items-center gap-1"
-                                >
-                                    <Metis className="h-5 w-5" />
-                                    Metis
-                                    <ArrowUpRight className="w-5 h-5 text-text-secondary -ml-1" />
-                                </Link>
-                            </Button>
-                            <Button asChild variant="ghost" size="default">
-                                <Link
                                     href="/about"
                                     className="items-center gap-1"
                                 >
@@ -64,17 +53,6 @@ export default function Header() {
                 <div className="flex items-center justify-between px-5 py-4 gap-1">
                     <div className="w-full flex gap-1">
                         <Button asChild variant="ghost" size="default">
-                            <Link
-                                href="https://metis.works/"
-                                target="_blank"
-                                className="items-center gap-1"
-                            >
-                                <Metis className="h-5 w-5" />
-                                Metis
-                                <ArrowUpRight className="w-5 h-5 text-text-secondary -ml-1" />
-                            </Link>
-                        </Button>
-                        <Button asChild variant="ghost" size="default">
                             <Link href="/about" className="items-center gap-1">
                                 About me
                             </Link>
@@ -82,7 +60,7 @@ export default function Header() {
                     </div>
                     <Button asChild variant="accent" size="default">
                         <Link
-                            href="https://www.linkedin.com/in/mahry00/"
+                            href="https://www.linkedin.com/in/mahryme/"
                             target="_blank"
                         >
                             Let&apos;s connect!

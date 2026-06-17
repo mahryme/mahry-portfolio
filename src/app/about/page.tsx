@@ -77,27 +77,6 @@ export default function About() {
                                     focusing on each step.
                                 </p>
                                 <p className="text-body-md text-neutral-900">
-                                    I&apos;m also working on{" "}
-                                    <span className="font-semibold">
-                                        a passion project
-                                    </span>{" "}
-                                    called{" "}
-                                    <a
-                                        href="https://metis.works"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="font-semibold text-blue-600 transition-all hover:text-blue-800 underline"
-                                    >
-                                        Metis
-                                    </a>{" "}
-                                    — a language learning flashcard app I&apos;m
-                                    developing with my younger brother.
-                                    It&apos;s our attempt to make language
-                                    learning more efficient through AI, not only
-                                    for me as an active Spanish learner, but for
-                                    other language learners too.
-                                </p>
-                                <p className="text-body-md text-neutral-900">
                                     <span className="font-semibold">
                                         What drives me
                                     </span>{" "}
