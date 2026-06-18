@@ -16,7 +16,7 @@ export default function About() {
                             <div className="relative size-full aspect-square rounded-lg overflow-hidden md:size-40">
                                 <Image
                                     src="/avatar.jpg"
-                                    alt="Job Board"
+                                    alt="Me"
                                     priority={true}
                                     fill
                                     className="object-cover"
@@ -27,79 +27,94 @@ export default function About() {
                                     About me
                                 </h2>
                                 <p className="text-body-md text-neutral-950">
-                                    <span className="font-semibold">
-                                        I&apos;m Maksym,
-                                    </span>{" "}
-                                    a 20-year-old interface designer from
-                                    Ukraine, currently based in the UK and
-                                    studying User Experience at University of
-                                    the Arts London.
+                                    I&apos;m Maksym (Maks) — a product designer
+                                    based in London, UK, studying User
+                                    Experience at University of the Arts London.
                                 </p>
                                 <p className="text-body-md text-neutral-950">
                                     <span className="font-semibold">
-                                        I approach
+                                        I take on the whole problem, not just
+                                        the screens.
                                     </span>{" "}
-                                    every bit of work understanding that design
-                                    is about solving problems — for users,
-                                    business, or both combined. I tend to ask a
-                                    lot of questions and listen carefully, which
-                                    I believe helps me tackle each problem
-                                    effectively. I combine systematic thinking
-                                    with intuition, which helps me generate
-                                    diverse ideas that genuinely impact
-                                    products. Beyond spending countless hours in
-                                    Figma, I&apos;m interested in basic code,
-                                    applying it to translate design systems into
-                                    development whilst communicating with
-                                    developers and documenting each token.
-                                </p>
-                                <p className="text-body-md text-neutral-950">
+                                    On my main project, The Instapreneurs (an
+                                    online-education platform), I built the
+                                    product from the ground up — information
+                                    architecture, user flows, the interface, the
+                                    design system and the direction for the
+                                    developer who built it — and stayed close
+                                    enough to the outcomes to move them: a
+                                    personal-account migration that{" "}
                                     <span className="font-semibold">
-                                        When I&apos;m not designing,
+                                        cut support tickets by 65%
                                     </span>{" "}
-                                    you&apos;ll likely find me lacing up my
-                                    running shoes. I&apos;m actively training
-                                    for 10k and half-marathon distances,
-                                    maintaining a structured routine (follow me
-                                    on{" "}
+                                    and a job-board integration that{" "}
+                                    <span className="font-semibold">
+                                        lifted lecture click-through by 15%
+                                    </span>
+                                    .
+                                </p>
+                                <p className="text-body-md text-neutral-900">
+                                    Owning that much doesn&apos;t necessarily
+                                    mean working alone — it&apos;s{" "}
+                                    <span className="font-semibold">
+                                        where I lean most collaborative.
+                                    </span>{" "}
+                                    I&apos;m at my best in a small team I can
+                                    help steer: delegating, working out what
+                                    each person is strongest at and curating the
+                                    discussion so it stays focused on the real
+                                    problem. My instinct is to start with
+                                    structure — I want the sitemap, the funnel
+                                    and the navigation logic right before
+                                    anything turns visual, because the surface
+                                    is easier to get good once the system
+                                    underneath it is sound. I&apos;m opinionated
+                                    about these calls, but quick to change my
+                                    mind when the evidence does.
+                                </p>
+                                <p className="text-body-md text-neutral-900">
+                                    Curiosity is the engine behind all of it as
+                                    it pulls me into a problem before I know the
+                                    answer, and lately it&apos;s{" "}
+                                    <span className="font-semibold">
+                                        pulling me toward code.
+                                    </span>{" "}
+                                    I build design systems in Figma — primitive
+                                    values into semantic tokens — then carry
+                                    them into React and Tailwind so the system
+                                    lives in the product, not just the file.
+                                    It&apos;s the part I&apos;m going deepest on
+                                    right now.
+                                </p>
+                                <p className="text-body-md text-neutral-900">
+                                    Beyond design and code, I&apos;m passionate
+                                    about languages and endurance sports. I
+                                    <span className="font-semibold">
+                                        learnt Spanish from zero to
+                                        conversational
+                                    </span>{" "}
+                                    across two years of A-levels and I&apos;m
+                                    still improving it, and I treat endurance
+                                    sport as a long-term personal project —
+                                    currently training for 10k and half-marathon
+                                    distances (
                                     <a
                                         href="https://www.strava.com/athletes/138692749"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="font-semibold text-blue-600 transition-all hover:text-blue-800 underline"
                                     >
-                                        Strava
+                                        My Strava
                                     </a>
-                                    ). There&apos;s something about the rhythm
-                                    of running that mirrors good design — both
-                                    require patience, persistence and the
-                                    ability to see the bigger picture whilst
-                                    focusing on each step.
+                                    ).
                                 </p>
                                 <p className="text-body-md text-neutral-900">
-                                    <span className="font-semibold">
-                                        What drives me
-                                    </span>{" "}
-                                    is creating experiences that matter. I
-                                    believe the best solutions come from
-                                    understanding what people actually need, not
-                                    what we think they should want —
-                                    particularly since products tend to fail
-                                    when they solve problems that weren&apos;t
-                                    there to begin with.
-                                </p>
-                                <p className="text-body-md text-neutral-900">
-                                    <span className="font-semibold">
-                                        Currently I&apos;m looking for
-                                        opportunities
-                                    </span>{" "}
-                                    where I can contribute to meaningful
-                                    projects whilst continuing to learn and
-                                    grow. If you&apos;re building something that
-                                    could make a positive impact, I&apos;d love
-                                    to hear about it — either contributing to
-                                    your design system or generating fresh
-                                    product ideas.
+                                    I&apos;m looking for opportunities where I
+                                    can take on real product problems and keep
+                                    building the design-systems-in-code side of
+                                    my practice. If you&apos;re making something
+                                    you care about, I&apos;d like to hear about
+                                    it.
                                 </p>
                             </div>
                         </Container>
