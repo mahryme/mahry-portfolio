@@ -1,7 +1,7 @@
-import { Container } from "@/components/container";
-import Header from "@/components/shared/header";
-import Footer from "@/components/shared/footer";
-import Card from "@/components/shared/card";
+import { Container } from "@/components/site/container";
+import Header from "@/components/site/header";
+import Footer from "@/components/site/footer";
+import Card from "@/components/site/card";
 
 export default function HomePage() {
     return (
@@ -10,12 +10,12 @@ export default function HomePage() {
             <main>
                 <section className="flex items-center justify-center">
                     <Container>
-                        <div className="max-w-4xl flex flex-col gap-3 text-text-primary">
-                            <h2 className="text-h2 font-semibold text-pretty">
+                        <div className="max-w-4xl flex flex-col gap-3 text-fg-primary">
+                            <h2 className="text-heading-md text-pretty">
                                 Hi 👋 I&apos;m a product designer who loves
                                 building systems and helping things grow
                             </h2>
-                            <p className="text-body-lg font-regular text-pretty">
+                            <p className="text-body-lg text-pretty">
                                 I create experiences that solve real problems by
                                 asking questions, listening carefully, and
                                 combining systematic thinking with intuition.
@@ -28,7 +28,7 @@ export default function HomePage() {
                 <section className="flex items-center justify-center">
                     <Container>
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">Cases</h4>
+                            <h4 className="text-heading-sm">Cases</h4>
                             <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-5">
                                 <Card
                                     imageSrc="/covers/job-board-cover.webp"

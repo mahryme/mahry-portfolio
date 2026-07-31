@@ -31,58 +31,6 @@
     }
 }
 
-@layer utilities {
-    /* unchanged — different naming to DS (h2/h4/h5/h6, body-lg/md/s/xs, label-md/s/xs),
-       so nothing collides. These stay for now; migrating typography SIZE (not colour)
-       to DS's heading/body/label scale is a separate job, deliberately out of scope
-       here — DS's scale is fixed, .text-h2 has a real responsive breakpoint below,
-       and forcing that through now would double the file-touching we're already doing. */
-    .text-h2 {
-        font-size: 1.6rem;
-        line-height: 1.3;
-    }
-    .text-h4 {
-        font-size: 1.5rem;
-        line-height: 1.28;
-    }
-    .text-h5 {
-        font-size: 1.25rem;
-        line-height: 1.32;
-    }
-    .text-h6 {
-        font-size: 1.125rem;
-        line-height: 1.2;
-    }
-    .text-body-lg {
-        font-size: 1.125rem;
-        line-height: 1.48;
-    }
-    .text-body-md {
-        font-size: 1rem;
-        line-height: 1.44;
-    }
-    .text-body-s {
-        font-size: 0.875rem;
-        line-height: 1.4;
-    }
-    .text-body-xs {
-        font-size: 0.75rem;
-        line-height: 1.36;
-    }
-    .text-label-md {
-        font-size: 1rem;
-        line-height: 1.14;
-    }
-    .text-label-s {
-        font-size: 0.875rem;
-        line-height: 1.12;
-    }
-    .text-label-xs {
-        font-size: 0.75rem;
-        line-height: 1.08;
-    }
-}
-
 @layer components {
     .swiper {
         width: 100%;
@@ -99,12 +47,5 @@
     }
     .swiper-pagination-bullet-active {
         background: var(--color-neutral-900) !important;
-    }
-}
-
-@media (min-width: 768px) {
-    .text-h2 {
-        font-size: 2rem;
-        line-height: 1.28;
     }
 }

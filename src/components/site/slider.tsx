@@ -51,7 +51,7 @@ export function Slider({ slides, speed = 400, options = {} }: SliderProps) {
                 {slides.map((slide, i) => (
                     <SwiperSlide key={i} className="max-w-[88%]">
                         <div className="flex flex-col gap-3">
-                            <figure className="bg-cont-secondary p-1 rounded-2xl">
+                            <figure className="bg-container-brand p-1 rounded-2xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                     <Image
                                         src={slide.src}
@@ -64,7 +64,7 @@ export function Slider({ slides, speed = 400, options = {} }: SliderProps) {
                                 </div>
                             </figure>
                             {slide.caption && (
-                                <figcaption className="text-label-xs font-semibold text-text-secondary">
+                                <figcaption className="text-caption-default text-fg-secondary">
                                     {slide.caption}
                                 </figcaption>
                             )}
