@@ -1,7 +1,8 @@
-import { Container } from "@/components/container";
-import Header from "@/components/shared/header";
-import Footer from "@/components/shared/footer";
-import { Slider, Slide } from "@/components/shared/slider";
+import { Container } from "@/components/site/container";
+import Header from "@/components/site/header";
+import Footer from "@/components/site/footer";
+import { Slider, Slide } from "@/components/site/slider";
+import { Button } from "@mahry/ds";
 import { ArrowRight } from "lucide-react";
 
 import Image from "next/image";
@@ -48,10 +49,10 @@ export default function PersonalAccount() {
                     <Container variant="blog" className="flex flex-col gap-8">
                         <div className="flex flex-col gap-6">
                             <div className="flex flex-col gap-3">
-                                <h2 className="text-h2 font-semibold">
+                                <h2 className="text-heading-lg font-semibold">
                                     Personal Account Migration
                                 </h2>
-                                <p className="text-body-md font-regular">
+                                <p className="text-body-md font-normal">
                                     We cut our dependency on a third-party
                                     account service by migrating off Kwiga and
                                     into a custom Webflow + Memberstack setup -
@@ -62,32 +63,32 @@ export default function PersonalAccount() {
                             </div>
                             <div className="flex flex-col gap-2">
                                 <div className="grid grid-cols-3 gap-5">
-                                    <p className="text-label-md font-semibold text-text-primary">
+                                    <p className="text-label-md font-semibold text-fg-primary">
                                         My role
                                     </p>
-                                    <p className="text-label-md font-semibold text-text-primary">
+                                    <p className="text-label-md font-semibold text-fg-primary">
                                         Timeline
                                     </p>
-                                    <p className="text-label-md font-semibold text-text-primary">
+                                    <p className="text-label-md font-semibold text-fg-primary">
                                         Impact
                                     </p>
                                 </div>
-                                <hr className="border-t border-border-strong" />
+                                <hr className="border-t border-border-secondary" />
                                 <div className="grid grid-cols-3 gap-5">
-                                    <p className="text-body-s font-medium text-text-primary">
+                                    <p className="text-body-sm font-medium text-fg-primary">
                                         Solo Product Designer
                                     </p>
-                                    <p className="text-body-s font-medium text-text-primary">
+                                    <p className="text-body-sm font-medium text-fg-primary">
                                         6 months (H2 2024)
                                     </p>
-                                    <p className="text-body-s font-semibold text-green-600">
+                                    <p className="text-body-sm font-semibold text-fg-success">
                                         -65% Support Tickets
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-col gap-3">
-                            <figure className="bg-cont-secondary p-1 rounded-2xl md:rounded-3xl">
+                            <figure className="bg-container-brand p-1 rounded-2xl md:rounded-3xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                     <Image
                                         src="/images/acc/lects-p.webp"
@@ -98,18 +99,18 @@ export default function PersonalAccount() {
                                     />
                                 </div>
                             </figure>
-                            <figcaption className="text-label-xs font-semibold text-text-secondary">
+                            <figcaption className="text-caption-default text-fg-secondary">
                                 Lectures Library page
                             </figcaption>
                         </div>
 
                         {/* Problem & Context Section */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">
+                            <h4 className="text-heading-md font-semibold">
                                 Problem & Context
                             </h4>
                             <div className="flex flex-col gap-1">
-                                <p className="text-body-md text-text-primary">
+                                <p className="text-body-md text-fg-primary">
                                     <span className="font-semibold">
                                         The Instapreneurs
                                     </span>{" "}
@@ -119,7 +120,7 @@ export default function PersonalAccount() {
                                     between our branded site and Kwiga&apos;s
                                     third-party interface, leading to:
                                 </p>
-                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-secondary">
+                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
                                     <li>
                                         <span className="font-semibold">
                                             Jarring context switches
@@ -144,7 +145,7 @@ export default function PersonalAccount() {
                         </div>
 
                         <div className="flex flex-col gap-3">
-                            <figure className="bg-cont-secondary p-1 rounded-2xl md:rounded-3xl">
+                            <figure className="bg-container-brand p-1 rounded-2xl md:rounded-3xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                     <Image
                                         src="/images/acc/kwiga-scr.webp"
@@ -155,17 +156,17 @@ export default function PersonalAccount() {
                                     />
                                 </div>
                             </figure>
-                            <figcaption className="text-label-xs font-semibold text-text-secondary">
+                            <figcaption className="text-caption-default text-fg-secondary">
                                 Our Lectures Library page on Kwiga
                             </figcaption>
                         </div>
 
                         {/* Objectives */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">
+                            <h4 className="text-heading-md font-semibold">
                                 Objectives
                             </h4>
-                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
+                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                 <li>
                                     <span className="font-semibold">Unify</span>{" "}
                                     all account flows in our own branded UI
@@ -201,8 +202,10 @@ export default function PersonalAccount() {
 
                         {/* My role */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">My role</h4>
-                            <p className="text-body-md text-text-primary">
+                            <h4 className="text-heading-md font-semibold">
+                                My role
+                            </h4>
+                            <p className="text-body-md text-fg-primary">
                                 As the sole Product Designer, I owned the
                                 project from end to end: stakeholder interviews,
                                 IA mapping, sketching, high-fidelity Figma
@@ -213,10 +216,10 @@ export default function PersonalAccount() {
 
                         {/* Research */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">
+                            <h4 className="text-heading-md font-semibold">
                                 Research & Key Insights
                             </h4>
-                            <p className="text-body-md text-text-primary">
+                            <p className="text-body-md text-fg-primary">
                                 First, I needed to understand what users need
                                 and want from the personal account, the
                                 limitations of our current Kwiga setup as well
@@ -232,7 +235,7 @@ export default function PersonalAccount() {
                                 <p className="text-body-md font-semibold">
                                     I interviewed:
                                 </p>
-                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
+                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                     <li>
                                         <span className="font-semibold">
                                             Veronika (Founder)
@@ -260,18 +263,18 @@ export default function PersonalAccount() {
                                 </ul>
                             </div>
                             <div className="flex flex-col gap-2">
-                                <h5 className="text-h5 font-semibold">
+                                <h5 className="text-heading-sm font-semibold">
                                     Key insights
                                 </h5>
-                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
+                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                     <li>
-                                        <span className="font-semibold text-red-600">
+                                        <span className="font-semibold text-fg-error">
                                             30% drop-off
                                         </span>{" "}
                                         at the site-to-Kwiga transition
                                     </li>
                                     <li>
-                                        <span className="font-semibold text-red-600">
+                                        <span className="font-semibold text-fg-error">
                                             65% of support tickets
                                         </span>{" "}
                                         tied to playback, pricing, or
@@ -316,11 +319,11 @@ export default function PersonalAccount() {
                         {/* Design Process */}
                         <div className="flex flex-col gap-6">
                             <div className="flex flex-col gap-4">
-                                <h4 className="text-h4 font-semibold">
+                                <h4 className="text-heading-md font-semibold">
                                     Design Process
                                 </h4>
                                 <div className="flex flex-col gap-3">
-                                    <p className="text-body-md text-text-primary">
+                                    <p className="text-body-md text-fg-primary">
                                         We split the migration into three clear
                                         phases - initial MVP, refinement, and
                                         final polished version - so you can see
@@ -329,15 +332,15 @@ export default function PersonalAccount() {
                                     </p>
                                 </div>
                             </div>
-                            <hr className="border-t border-border-strong" />
+                            <hr className="border-t border-border-secondary" />
                             <div className="flex flex-col gap-10">
                                 <div className="flex flex-col gap-4">
                                     <div className="flex flex-col gap-2">
-                                        <h5 className="text-h5 font-semibold">
+                                        <h5 className="text-heading-sm font-semibold">
                                             Initial MVP
                                         </h5>
                                         <div className="flex flex-col gap-2">
-                                            <p className="text-body-md text-text-primary">
+                                            <p className="text-body-md text-fg-primary">
                                                 <span className="font-semibold">
                                                     Goal:
                                                 </span>{" "}
@@ -350,7 +353,7 @@ export default function PersonalAccount() {
                                                 <p className="text-body-md font-semibold">
                                                     What I did:
                                                 </p>
-                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
+                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                                     <li>
                                                         Built a unified sidebar
                                                         (Home · Lectures · UGC
@@ -377,11 +380,11 @@ export default function PersonalAccount() {
                                 </div>
                                 <div className="flex flex-col gap-4">
                                     <div className="flex flex-col gap-2">
-                                        <h5 className="text-h5 font-semibold">
+                                        <h5 className="text-heading-sm font-semibold">
                                             Refinement
                                         </h5>
                                         <div className="flex flex-col gap-2">
-                                            <p className="text-body-md text-text-primary">
+                                            <p className="text-body-md text-fg-primary">
                                                 <span className="font-semibold">
                                                     Goal:
                                                 </span>{" "}
@@ -393,7 +396,7 @@ export default function PersonalAccount() {
                                                 <p className="text-body-md font-semibold">
                                                     What I did:
                                                 </p>
-                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
+                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                                     <li>
                                                         Added “Lectures (Kwiga)”
                                                         legacy link for users
@@ -422,11 +425,11 @@ export default function PersonalAccount() {
                                 </div>
                                 <div className="flex flex-col gap-4">
                                     <div className="flex flex-col gap-2">
-                                        <h5 className="text-h5 font-semibold">
+                                        <h5 className="text-heading-sm font-semibold">
                                             Final
                                         </h5>
                                         <div className="flex flex-col gap-2">
-                                            <p className="text-body-md text-text-primary">
+                                            <p className="text-body-md text-fg-primary">
                                                 <span className="font-semibold">
                                                     Goal:
                                                 </span>{" "}
@@ -439,7 +442,7 @@ export default function PersonalAccount() {
                                                 <p className="text-body-md font-semibold">
                                                     What I did:
                                                 </p>
-                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
+                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                                     <li>
                                                         Established colour,
                                                         typography, and
@@ -469,19 +472,21 @@ export default function PersonalAccount() {
 
                         {/* Outcome */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">Outcome</h4>
-                            <p className="text-body-md text-text-secondary">
+                            <h4 className="text-heading-md font-semibold">
+                                Outcome
+                            </h4>
+                            <p className="text-body-md text-fg-secondary">
                                 Owning our personal-account UX end-to-end led to{" "}
-                                <span className="font-semibold text-text-primary">
+                                <span className="font-semibold text-fg-primary">
                                     a 65% drop in support tickets, 40% higher
                                     onboarding completion,
                                 </span>{" "}
                                 and{" "}
-                                <span className="font-semibold text-text-primary">
+                                <span className="font-semibold text-fg-primary">
                                     50% more UGC engagement
                                 </span>{" "}
                                 as well as{" "}
-                                <span className="font-semibold text-text-primary">
+                                <span className="font-semibold text-fg-primary">
                                     gave us richer data on user needs
                                 </span>{" "}
                                 - - all on a foundation built to scale.
@@ -490,7 +495,7 @@ export default function PersonalAccount() {
                                 <p className="text-body-md font-semibold">
                                     Key takeaways:
                                 </p>
-                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
+                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                     <li>
                                         <span className="font-semibold">
                                             Ship an MVP
@@ -519,11 +524,11 @@ export default function PersonalAccount() {
                                     </li>
                                 </ul>
                             </div>
-                            <blockquote className="border-l-4 border-border-accent pl-2">
-                                <p className="text-body-md text-text-secondary">
+                            <blockquote className="border-l-4 border-border-brand pl-2">
+                                <p className="text-body-md text-fg-secondary">
                                     “Migrating our account flows was just the
                                     start—it gave us a{" "}
-                                    <span className="font-semibold text-text-primary">
+                                    <span className="font-semibold text-fg-primary">
                                         repeatable, user-centered framework for
                                         growth.
                                     </span>
@@ -531,25 +536,28 @@ export default function PersonalAccount() {
                                 </p>
                             </blockquote>
                         </div>
-                        <Link
-                            href="/cases/subscription-ux"
-                            className="p-4 bg-action-secondary text-action-secondary-text border-action-secondary-border border-1 rounded-2xl shadow-xs cursor-pointer transition-all duration-400 ease-out hover:bg-action-secondary-hovered hover:shadow-none"
+                        <Button
+                            asChild
+                            variant="tertiary"
+                            className="h-auto rounded-2xl p-4 cursor-pointer shadow-xs hover:shadow-none"
                         >
-                            <div className="flex items-center justify-between">
-                                <div className="flex flex-col gap-1">
-                                    <p className="text-body-s font-medium text-text-secondary">
-                                        Next Case
-                                    </p>
-                                    <h5 className="text-h5 font-semibold text-text-primary">
-                                        Subscription UX
-                                    </h5>
+                            <Link href="/cases/subscription-ux">
+                                <div className="flex items-center justify-between">
+                                    <div className="flex flex-col gap-1">
+                                        <p className="text-body-sm font-medium text-fg-secondary">
+                                            Next Case
+                                        </p>
+                                        <h5 className="text-heading-sm font-semibold text-fg-primary">
+                                            Subscription UX
+                                        </h5>
+                                    </div>
+                                    <ArrowRight
+                                        className="h-8 w-8"
+                                        aria-hidden="true"
+                                    />
                                 </div>
-                                <ArrowRight
-                                    className="h-8 w-8 text-action-secondary-text"
-                                    aria-hidden="true"
-                                />
-                            </div>
-                        </Link>
+                            </Link>
+                        </Button>
                     </Container>
                 </section>
             </main>

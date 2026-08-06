@@ -1,7 +1,8 @@
-import { Container } from "@/components/container";
-import Header from "@/components/shared/header";
-import Footer from "@/components/shared/footer";
-import { Slider, Slide } from "@/components/shared/slider";
+import { Container } from "@/components/site/container";
+import Header from "@/components/site/header";
+import Footer from "@/components/site/footer";
+import { Slider, Slide } from "@/components/site/slider";
+import { Button } from "@mahry/ds";
 import { ArrowRight } from "lucide-react";
 
 import Image from "next/image";
@@ -30,10 +31,10 @@ export default function JobBoard() {
                     <Container variant="blog" className="flex flex-col gap-8">
                         <div className="flex flex-col gap-6">
                             <div className="flex flex-col gap-3">
-                                <h2 className="text-h2 font-semibold">
+                                <h2 className="text-heading-lg font-semibold">
                                     Job Board Integration
                                 </h2>
-                                <p className="text-body-md font-regular">
+                                <p className="text-body-md font-normal">
                                     We built a job board inside our lectures
                                     library to primarily boost lecture library
                                     conversions. In six weeks, we launched a
@@ -44,32 +45,32 @@ export default function JobBoard() {
                             </div>
                             <div className="flex flex-col gap-2">
                                 <div className="grid grid-cols-3 gap-5">
-                                    <p className="text-label-md font-semibold text-text-primary">
+                                    <p className="text-label-md font-semibold text-fg-primary">
                                         My role
                                     </p>
-                                    <p className="text-label-md font-semibold text-text-primary">
+                                    <p className="text-label-md font-semibold text-fg-primary">
                                         Timeline
                                     </p>
-                                    <p className="text-label-md font-semibold text-text-primary">
+                                    <p className="text-label-md font-semibold text-fg-primary">
                                         Impact
                                     </p>
                                 </div>
-                                <hr className="border-t border-border-strong" />
+                                <hr className="border-t border-border-secondary" />
                                 <div className="grid grid-cols-3 gap-5">
-                                    <p className="text-body-s font-medium text-text-primary">
+                                    <p className="text-body-sm font-medium text-fg-primary">
                                         Solo Product Designer
                                     </p>
-                                    <p className="text-body-s font-medium text-text-primary">
+                                    <p className="text-body-sm font-medium text-fg-primary">
                                         Q1-Q2 2025
                                     </p>
-                                    <p className="text-body-s font-semibold text-green-600">
+                                    <p className="text-body-sm font-semibold text-fg-success">
                                         +15 % Lecture CTR
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-col gap-3">
-                            <figure className="bg-cont-secondary p-1 rounded-2xl md:rounded-3xl">
+                            <figure className="bg-container-brand p-1 rounded-2xl md:rounded-3xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                     <Image
                                         src="/images/job/job-vacs.webp"
@@ -80,7 +81,7 @@ export default function JobBoard() {
                                     />
                                 </div>
                             </figure>
-                            <figcaption className="text-label-xs font-semibold text-text-secondary">
+                            <figcaption className="text-caption-default text-fg-secondary">
                                 Job Board: Vacancies with a comprehensive
                                 filtering
                             </figcaption>
@@ -88,11 +89,11 @@ export default function JobBoard() {
 
                         {/* Problem & Context Section */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">
+                            <h4 className="text-heading-md font-semibold">
                                 Problem & Context
                             </h4>
                             <div className="flex flex-col gap-2">
-                                <p className="text-body-md text-text-primary">
+                                <p className="text-body-md text-fg-primary">
                                     <span className="font-semibold">
                                         The Instapreneurs
                                     </span>{" "}
@@ -107,7 +108,7 @@ export default function JobBoard() {
                                     <p className="text-body-md font-semibold">
                                         So we needed to:
                                     </p>
-                                    <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-secondary">
+                                    <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
                                         <li>Retain users after they upskill</li>
                                         <li>
                                             Showcase relevant vacancies
@@ -125,10 +126,10 @@ export default function JobBoard() {
 
                         {/* Objectives */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">
+                            <h4 className="text-heading-md font-semibold">
                                 Objectives
                             </h4>
-                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
+                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                 <li>
                                     <span className="font-semibold">Unify</span>{" "}
                                     learning and job discovery in one interface
@@ -157,7 +158,7 @@ export default function JobBoard() {
                         </div>
 
                         <div className="flex flex-col gap-3">
-                            <figure className="bg-cont-secondary p-1 rounded-2xl md:rounded-3xl">
+                            <figure className="bg-container-brand p-1 rounded-2xl md:rounded-3xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                     <Image
                                         src="/images/job/job-board-mob.webp"
@@ -168,15 +169,17 @@ export default function JobBoard() {
                                     />
                                 </div>
                             </figure>
-                            <figcaption className="text-label-xs font-semibold text-text-secondary">
+                            <figcaption className="text-caption-default text-fg-secondary">
                                 Job Board: Mobile
                             </figcaption>
                         </div>
 
                         {/* My role */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">My role</h4>
-                            <p className="text-body-md text-text-primary">
+                            <h4 className="text-heading-md font-semibold">
+                                My role
+                            </h4>
+                            <p className="text-body-md text-fg-primary">
                                 I collaborated with the whole team including
                                 founder Veronika, PM Viktoriia, dev Oleh and
                                 marketing Oleksandra. I nailed down
@@ -190,10 +193,10 @@ export default function JobBoard() {
 
                         {/* Research */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">
+                            <h4 className="text-heading-md font-semibold">
                                 Research & Key Insights
                             </h4>
-                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-text-primary">
+                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                 <li>
                                     <span className="font-semibold">
                                         Learner survey (N = 50):
@@ -220,9 +223,11 @@ export default function JobBoard() {
 
                         {/* Solution */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">Solution</h4>
+                            <h4 className="text-heading-md font-semibold">
+                                Solution
+                            </h4>
                             <div className="flex flex-col gap-2">
-                                <p className="text-body-md text-text-primary">
+                                <p className="text-body-md text-fg-primary">
                                     At first place, we wanted to keep it very
                                     simple and handful for users. Knowing all
                                     the basic requirements and having done some
@@ -235,7 +240,7 @@ export default function JobBoard() {
                                     any relevant information that we were able
                                     to obtain from the companies.
                                 </p>
-                                <p className="text-body-md text-text-primary">
+                                <p className="text-body-md text-fg-primary">
                                     Finally, I partnered closely with
                                     development to construct a CMS for live
                                     listings, embed upsell slots and Ship the
@@ -248,15 +253,17 @@ export default function JobBoard() {
 
                         {/* Outcome */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-h4 font-semibold">Outcome</h4>
-                            <p className="text-body-md text-text-secondary">
+                            <h4 className="text-heading-md font-semibold">
+                                Outcome
+                            </h4>
+                            <p className="text-body-md text-fg-secondary">
                                 Launching the in-library job board has already
                                 brought us{" "}
-                                <span className="font-semibold text-text-primary">
+                                <span className="font-semibold text-fg-primary">
                                     12 pilot partners, 64 live vacancies
                                 </span>{" "}
                                 and a{" "}
-                                <span className="font-semibold text-text-primary">
+                                <span className="font-semibold text-fg-primary">
                                     +15% click-through rate into related
                                     lectures
                                 </span>{" "}
@@ -264,25 +271,28 @@ export default function JobBoard() {
                                 approaching B2B stream.
                             </p>
                         </div>
-                        <Link
-                            href="/cases/personal-account-migration"
-                            className="p-4 bg-action-secondary text-action-secondary-text border-action-secondary-border border-1 rounded-2xl shadow-xs cursor-pointer transition-all duration-400 ease-out hover:bg-action-secondary-hovered hover:shadow-none"
+                        <Button
+                            asChild
+                            variant="tertiary"
+                            className="h-auto rounded-2xl p-4 cursor-pointer shadow-xs hover:shadow-none"
                         >
-                            <div className="flex items-center justify-between">
-                                <div className="flex flex-col gap-1">
-                                    <p className="text-body-s font-medium text-text-secondary">
-                                        Next Case
-                                    </p>
-                                    <h5 className="text-h5 font-semibold text-text-primary">
-                                        Personal Account Migration
-                                    </h5>
+                            <Link href="/cases/personal-account-migration">
+                                <div className="flex items-center justify-between">
+                                    <div className="flex flex-col gap-1">
+                                        <p className="text-body-sm font-medium text-fg-secondary">
+                                            Next Case
+                                        </p>
+                                        <h5 className="text-heading-sm font-semibold text-fg-primary">
+                                            Personal Account Migration
+                                        </h5>
+                                    </div>
+                                    <ArrowRight
+                                        className="h-8 w-8"
+                                        aria-hidden="true"
+                                    />
                                 </div>
-                                <ArrowRight
-                                    className="h-8 w-8 text-action-secondary-text"
-                                    aria-hidden="true"
-                                />
-                            </div>
-                        </Link>
+                            </Link>
+                        </Button>
                     </Container>
                 </section>
             </main>
