@@ -1,6 +1,6 @@
-import { Container } from "@/components/container";
-import Header from "@/components/shared/header";
-import Footer from "@/components/shared/footer";
+import { Container } from "@/components/site/container";
+import Header from "@/components/site/header";
+import Footer from "@/components/site/footer";
 
 import React from "react";
 import Image from "next/image";

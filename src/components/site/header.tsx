@@ -35,14 +35,14 @@ export default function Header() {
                                 </Link>
                             </Button>
                         </div>
-                        <Link
-                            href="https://www.linkedin.com/in/mahry00/"
-                            target="_blank"
-                        >
-                            <Button variant="primary">
-                                <span>Let&apos;s connect!</span>
-                            </Button>
-                        </Link>
+                        <Button asChild variant="primary">
+                            <Link
+                                href="https://www.linkedin.com/in/mahry00/"
+                                target="_blank"
+                            >
+                                Let&apos;s connect!
+                            </Link>
+                        </Button>
                     </div>
                 </Container>
             </header>
@@ -62,6 +62,11 @@ export default function Header() {
                             target="_blank"
                         >
                             Let&apos;s connect!
+                        </Link>
+                    </Button>
+                    <Button asChild variant="ghost">
+                        <Link href="/about" className="items-center gap-1">
+                            About me
                         </Link>
                     </Button>
                 </div>
