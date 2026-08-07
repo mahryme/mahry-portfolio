@@ -7,8 +7,8 @@ export default function Footer() {
     return (
         <footer className="flex items-center justify-center flex-1 pb-16 md:pb-0">
             <Container variant="nav">
-                <p className="max-w-[12.5rem] text-label-md text-fg-tertiary">
-                    Designed with curiosity by Maksym Hrytsenko © 2025
+                <p className="max-w-[12.5rem] text-label-sm text-fg-tertiary">
+                    Designed with curiosity by Maksym Hrytsenko ©2026
                 </p>
                 <div className="flex items-center gap-2">
                     <IconButton

@@ -17,10 +17,10 @@ export default function SubscriptionUX() {
                     <Container variant="blog" className="flex flex-col gap-8">
                         <div className="flex flex-col gap-6">
                             <div className="flex flex-col gap-3">
-                                <h2 className="text-heading-lg font-semibold">
+                                <h2 className="text-heading-md">
                                     Subscription UX
                                 </h2>
-                                <p className="text-body-md font-normal">
+                                <p className="text-body-md text-fg-secondary">
                                     Subscription-related support tickets were
                                     piling up and most of those could&apos;ve
                                     been resolved within the interface. Being
@@ -29,8 +29,10 @@ export default function SubscriptionUX() {
                                     users more clarity about their
                                     subscriptions.
                                 </p>
-                                <p className="text-body-md font-normal">
-                                    <span className="font-semibold">Note:</span>{" "}
+                                <p className="text-body-md text-fg-secondary">
+                                    <span className="text-fg-primary">
+                                        Note:
+                                    </span>{" "}
                                     Some screenshots in this case studies have
                                     been translated from Ukrainian to English
                                     for international portfolio presentation
@@ -39,32 +41,32 @@ export default function SubscriptionUX() {
                             </div>
                             <div className="flex flex-col gap-2">
                                 <div className="grid grid-cols-3 gap-5">
-                                    <p className="text-label-md font-semibold text-fg-primary">
+                                    <p className="text-label-md text-fg-primary">
                                         My role
                                     </p>
-                                    <p className="text-label-md font-semibold text-fg-primary">
+                                    <p className="text-label-md text-fg-primary">
                                         Timeline
                                     </p>
-                                    <p className="text-label-md font-semibold text-fg-primary">
+                                    <p className="text-label-md text-fg-primary">
                                         Impact
                                     </p>
                                 </div>
                                 <hr className="border-t border-border-secondary" />
                                 <div className="grid grid-cols-3 gap-5">
-                                    <p className="text-body-sm font-medium text-fg-primary">
+                                    <p className="text-body-sm text-fg-primary">
                                         Solo Product Designer
                                     </p>
-                                    <p className="text-body-sm font-medium text-fg-primary">
+                                    <p className="text-body-sm text-fg-primary">
                                         Q4 2024
                                     </p>
-                                    <p className="text-body-sm font-semibold text-fg-success">
+                                    <p className="text-body-sm text-fg-success">
                                         -40% Support Tickets
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-col gap-3">
-                            <figure className="bg-container-brand p-1 rounded-2xl md:rounded-3xl">
+                            <figure className="bg-container-brand p-3 rounded-2xl md:rounded-3xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                     <Image
                                         src="/images/subs/sub-ver-2-ua.webp"
@@ -82,12 +84,12 @@ export default function SubscriptionUX() {
 
                         {/* Problem & Context Section */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-heading-md font-semibold">
+                            <h4 className="text-heading-sm">
                                 Problem & Context
                             </h4>
                             <div className="flex flex-col gap-1">
-                                <p className="text-body-md text-fg-primary">
-                                    <span className="font-semibold">
+                                <p className="text-body-md text-fg-secondary">
+                                    <span className="text-fg-primary">
                                         The Instapreneurs
                                     </span>{" "}
                                     is a subscription-based learning platform
@@ -99,9 +101,9 @@ export default function SubscriptionUX() {
                                     UGC Library with a separate subscription,
                                     but managed within one personal account.
                                 </p>
-                                <p className="text-body-md text-fg-primary">
+                                <p className="text-body-md text-fg-secondary">
                                     Our support team experienced{" "}
-                                    <span className="font-semibold">
+                                    <span className="text-fg-primary">
                                         an increasing volume of basic
                                         subscription-related inquiries
                                     </span>{" "}
@@ -115,10 +117,8 @@ export default function SubscriptionUX() {
 
                         {/* My role */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-heading-md font-semibold">
-                                My role
-                            </h4>
-                            <p className="text-body-md text-fg-primary">
+                            <h4 className="text-heading-sm">My role</h4>
+                            <p className="text-body-md text-fg-secondary">
                                 As a sole Product Designer, I led the process of
                                 understanding the problem and finding a solution
                                 that would conform either to our two-product
@@ -129,17 +129,17 @@ export default function SubscriptionUX() {
 
                         {/* Research */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-heading-md font-semibold">
+                            <h4 className="text-heading-sm">
                                 Understanding the problem
                             </h4>
                             <div className="flex flex-col gap-2">
-                                <p className="text-body-md text-fg-primary">
+                                <p className="text-body-md text-fg-secondary">
                                     I looked at the current &quot;Plan&quot;
                                     page in the Personal Account and identified
                                     key issues that might affect user
                                     experience:
                                 </p>
-                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
+                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
                                     <li>
                                         Inconsistent terminology between
                                         &quot;Plans&quot; and
@@ -156,7 +156,7 @@ export default function SubscriptionUX() {
                                     <li>Poor information hierarchy</li>
                                     <li>Limited user guidance</li>
                                 </ul>
-                                <p className="text-body-md text-fg-primary">
+                                <p className="text-body-md text-fg-secondary">
                                     However, due to a technical constrains, we
                                     use a third-party services for subscriptions
                                     which makes us unable to create more smooth
@@ -168,7 +168,7 @@ export default function SubscriptionUX() {
                         </div>
 
                         <div className="flex flex-col gap-3">
-                            <figure className="bg-container-brand p-1 rounded-2xl md:rounded-3xl">
+                            <figure className="bg-container-brand p-3 rounded-2xl md:rounded-3xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                     <Image
                                         src="/images/subs/problem.webp"
@@ -186,18 +186,16 @@ export default function SubscriptionUX() {
 
                         {/* Solution */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-heading-md font-semibold">
-                                Solution
-                            </h4>
+                            <h4 className="text-heading-sm">Solution</h4>
                             <div className="flex flex-col gap-8">
                                 <div className="flex flex-col gap-4">
-                                    <p className="text-body-md text-fg-primary">
-                                        <span className="font-semibold">
+                                    <p className="text-body-md text-fg-secondary">
+                                        <span className="text-fg-primary">
                                             In our first iteration,
                                         </span>{" "}
                                         we sketched out a richer “My
                                         Subscription” page by{" "}
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             testing a third-party solution on a
                                             free trial.
                                         </span>{" "}
@@ -209,7 +207,7 @@ export default function SubscriptionUX() {
                                         sustainable.
                                     </p>
                                     <div className="flex flex-col gap-3">
-                                        <figure className="bg-container-brand p-1 rounded-2xl md:rounded-3xl">
+                                        <figure className="bg-container-brand p-3 rounded-2xl md:rounded-3xl">
                                             <div className="relative w-full aspect-[440/277.68]">
                                                 <Image
                                                     src="/images/subs/sub-ver-1.webp"
@@ -226,13 +224,13 @@ export default function SubscriptionUX() {
                                     </div>
                                 </div>
                                 <div className="flex flex-col gap-4">
-                                    <p className="text-body-md text-fg-primary">
-                                        <span className="font-semibold">
+                                    <p className="text-body-md text-fg-secondary">
+                                        <span className="text-fg-primary">
                                             In our second iteration,
                                         </span>{" "}
                                         after deciding not to purchase the paid
                                         extension, I focused purely on{" "}
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             clarity and consistency.
                                         </span>{" "}
                                         I renamed the page &quot;My
@@ -250,7 +248,7 @@ export default function SubscriptionUX() {
                                         subscriptions.
                                     </p>
                                     <div className="flex flex-col gap-3">
-                                        <figure className="bg-container-brand p-1 rounded-2xl md:rounded-3xl">
+                                        <figure className="bg-container-brand p-3 rounded-2xl md:rounded-3xl">
                                             <div className="relative w-full aspect-[440/277.68]">
                                                 <Image
                                                     src="/images/subs/sub-ver-2-eng.webp"
@@ -271,9 +269,7 @@ export default function SubscriptionUX() {
 
                         {/* Outcome */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-heading-md font-semibold">
-                                Outcome
-                            </h4>
+                            <h4 className="text-heading-sm">Outcome</h4>
                             <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                 <li>
                                     Terminology unified across the interface for
@@ -282,13 +278,13 @@ export default function SubscriptionUX() {
                                 <li>
                                     &quot;Where&apos;s my renewal date?&quot;
                                     and &quot;How do I cancel?&quot; tickets{" "}
-                                    <span className="font-semibold text-fg-success">
+                                    <span className="text-fg-success">
                                         fell by 40%
                                     </span>
                                 </li>
                                 <li>
                                     The streamlined flow{" "}
-                                    <span className="font-semibold text-fg-success">
+                                    <span className="text-fg-success">
                                         saved ~2 hours/week of support time
                                     </span>
                                 </li>
@@ -297,15 +293,15 @@ export default function SubscriptionUX() {
                         <Button
                             asChild
                             variant="tertiary"
-                            className="h-auto rounded-2xl p-4 cursor-pointer shadow-xs hover:shadow-none"
+                            className="w-full h-auto rounded-2xl p-4"
                         >
                             <Link href="/cases/job-board">
-                                <div className="flex items-center justify-between">
-                                    <div className="flex flex-col gap-1">
-                                        <p className="text-body-sm font-medium text-fg-secondary">
+                                <div className="flex w-full items-center justify-between">
+                                    <div className="flex flex-col">
+                                        <p className="text-body-sm text-fg-secondary">
                                             Next Case
                                         </p>
-                                        <h5 className="text-heading-sm font-semibold text-fg-primary">
+                                        <h5 className="text-heading-sm text-action-on-tertiary">
                                             Job Board Integration
                                         </h5>
                                     </div>

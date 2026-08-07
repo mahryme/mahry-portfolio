@@ -51,7 +51,7 @@ export function Slider({ slides, speed = 400, options = {} }: SliderProps) {
                 {slides.map((slide, i) => (
                     <SwiperSlide key={i} className="max-w-[88%]">
                         <div className="flex flex-col gap-3">
-                            <figure className="bg-container-brand p-1 rounded-2xl">
+                            <figure className="bg-container-brand p-1 rounded-xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                     <Image
                                         src={slide.src}

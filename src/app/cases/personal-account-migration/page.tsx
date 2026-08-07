@@ -49,10 +49,10 @@ export default function PersonalAccount() {
                     <Container variant="blog" className="flex flex-col gap-8">
                         <div className="flex flex-col gap-6">
                             <div className="flex flex-col gap-3">
-                                <h2 className="text-heading-lg font-semibold">
+                                <h2 className="text-heading-md">
                                     Personal Account Migration
                                 </h2>
-                                <p className="text-body-md font-normal">
+                                <p className="text-body-md text-fg-secondary">
                                     We cut our dependency on a third-party
                                     account service by migrating off Kwiga and
                                     into a custom Webflow + Memberstack setup -
@@ -63,32 +63,32 @@ export default function PersonalAccount() {
                             </div>
                             <div className="flex flex-col gap-2">
                                 <div className="grid grid-cols-3 gap-5">
-                                    <p className="text-label-md font-semibold text-fg-primary">
+                                    <p className="text-label-md text-fg-primary">
                                         My role
                                     </p>
-                                    <p className="text-label-md font-semibold text-fg-primary">
+                                    <p className="text-label-md text-fg-primary">
                                         Timeline
                                     </p>
-                                    <p className="text-label-md font-semibold text-fg-primary">
+                                    <p className="text-label-md text-fg-primary">
                                         Impact
                                     </p>
                                 </div>
                                 <hr className="border-t border-border-secondary" />
                                 <div className="grid grid-cols-3 gap-5">
-                                    <p className="text-body-sm font-medium text-fg-primary">
+                                    <p className="text-body-sm text-fg-primary">
                                         Solo Product Designer
                                     </p>
-                                    <p className="text-body-sm font-medium text-fg-primary">
+                                    <p className="text-body-sm text-fg-primary">
                                         6 months (H2 2024)
                                     </p>
-                                    <p className="text-body-sm font-semibold text-fg-success">
+                                    <p className="text-body-sm text-fg-success">
                                         -65% Support Tickets
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-col gap-3">
-                            <figure className="bg-container-brand p-1 rounded-2xl md:rounded-3xl">
+                            <figure className="bg-container-brand p-3 rounded-2xl md:rounded-3xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                     <Image
                                         src="/images/acc/lects-p.webp"
@@ -106,12 +106,12 @@ export default function PersonalAccount() {
 
                         {/* Problem & Context Section */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-heading-md font-semibold">
+                            <h4 className="text-heading-sm">
                                 Problem & Context
                             </h4>
                             <div className="flex flex-col gap-1">
-                                <p className="text-body-md text-fg-primary">
-                                    <span className="font-semibold">
+                                <p className="text-body-md text-fg-secondary">
+                                    <span className="text-fg-primary">
                                         The Instapreneurs
                                     </span>{" "}
                                     is a subscription-based learning platform
@@ -122,20 +122,20 @@ export default function PersonalAccount() {
                                 </p>
                                 <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
                                     <li>
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             Jarring context switches
                                         </span>{" "}
                                         that confused users
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             Playback errors
                                         </span>{" "}
                                         and unclear cancellation flows spurring
                                         support tickets
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             Zero insight
                                         </span>{" "}
                                         into content usage or upsell potential
@@ -145,7 +145,7 @@ export default function PersonalAccount() {
                         </div>
 
                         <div className="flex flex-col gap-3">
-                            <figure className="bg-container-brand p-1 rounded-2xl md:rounded-3xl">
+                            <figure className="bg-container-brand p-3 rounded-2xl md:rounded-3xl">
                                 <div className="relative w-full aspect-[440/277.68]">
                                     <Image
                                         src="/images/acc/kwiga-scr.webp"
@@ -163,49 +163,35 @@ export default function PersonalAccount() {
 
                         {/* Objectives */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-heading-md font-semibold">
-                                Objectives
-                            </h4>
-                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
+                            <h4 className="text-heading-sm">Objectives</h4>
+                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
                                 <li>
-                                    <span className="font-semibold">Unify</span>{" "}
-                                    all account flows in our own branded UI
+                                    Unify all account flows in our own branded
+                                    UI
                                 </li>
                                 <li>
-                                    <span className="font-semibold">
-                                        Reduce
-                                    </span>{" "}
-                                    support tickets by clarifying navigation and
-                                    subscription status
+                                    Reduce support tickets by clarifying
+                                    navigation and subscription status
                                 </li>
                                 <li>
-                                    <span className="font-semibold">Boost</span>{" "}
-                                    discovery with search, filters, and
+                                    Boost discovery with search, filters, and
                                     bite-size lectures
                                 </li>
                                 <li>
-                                    <span className="font-semibold">
-                                        Enable
-                                    </span>{" "}
-                                    more analytics for personalisation and A/B
-                                    tests
+                                    Enable more analytics for personalisation
+                                    and A/B tests
                                 </li>
                                 <li>
-                                    <span className="font-semibold">
-                                        Scale & Monetise
-                                    </span>{" "}
-                                    the UGC Library through in-app upsells and
-                                    easy content discovery
+                                    Scale & Monetise the UGC Library through
+                                    in-app upsells and easy content discovery
                                 </li>
                             </ul>
                         </div>
 
                         {/* My role */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-heading-md font-semibold">
-                                My role
-                            </h4>
-                            <p className="text-body-md text-fg-primary">
+                            <h4 className="text-heading-sm">My role</h4>
+                            <p className="text-body-md text-fg-secondary">
                                 As the sole Product Designer, I owned the
                                 project from end to end: stakeholder interviews,
                                 IA mapping, sketching, high-fidelity Figma
@@ -216,46 +202,46 @@ export default function PersonalAccount() {
 
                         {/* Research */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-heading-md font-semibold">
+                            <h4 className="text-heading-sm">
                                 Research & Key Insights
                             </h4>
-                            <p className="text-body-md text-fg-primary">
+                            <p className="text-body-md text-fg-secondary">
                                 First, I needed to understand what users need
                                 and want from the personal account, the
                                 limitations of our current Kwiga setup as well
                                 as the technical constraints of our no-code
                                 stack (Webflow plus third-party tools like
                                 Memberstack). My plan was to{" "}
-                                <span className="font-semibold">
+                                <span className="text-fg-primary">
                                     talk to stakeholders to figure out real pain
                                     points and feasibility.
                                 </span>
                             </p>
                             <div className="flex flex-col gap-1">
-                                <p className="text-body-md font-semibold">
+                                <p className="text-body-md text-fg-primary">
                                     I interviewed:
                                 </p>
-                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
+                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
                                     <li>
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             Veronika (Founder)
                                         </span>{" "}
                                         to align on business goals
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             Viktoriia (PM)
                                         </span>{" "}
                                         who managed Kwiga day-to-day
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             Oleksandra (Support Manager)
                                         </span>{" "}
                                         for user reports and support tickets
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             Oleh (Developer)
                                         </span>{" "}
                                         to map out technical possibilities
@@ -263,25 +249,25 @@ export default function PersonalAccount() {
                                 </ul>
                             </div>
                             <div className="flex flex-col gap-2">
-                                <h5 className="text-heading-sm font-semibold">
+                                <h5 className="text-heading-sm">
                                     Key insights
                                 </h5>
-                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
+                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
                                     <li>
-                                        <span className="font-semibold text-fg-error">
+                                        <span className="text-fg-primary">
                                             30% drop-off
                                         </span>{" "}
                                         at the site-to-Kwiga transition
                                     </li>
                                     <li>
-                                        <span className="font-semibold text-fg-error">
+                                        <span className="text-fg-primary">
                                             65% of support tickets
                                         </span>{" "}
                                         tied to playback, pricing, or
                                         cancellations
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             User requests
                                         </span>{" "}
                                         for a range of features such as
@@ -289,14 +275,14 @@ export default function PersonalAccount() {
                                         personalised recommendations
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             Content discovery was challenging
                                         </span>{" "}
                                         in the existing interface, making it
                                         hard for users to find relevant lectures
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
+                                        <span className="text-fg-primary">
                                             Limited analytics
                                         </span>{" "}
                                         from Kwiga revealed only basic playback
@@ -304,13 +290,12 @@ export default function PersonalAccount() {
                                         personalise the experience
                                     </li>
                                     <li>
-                                        Technical audit with our developer
-                                        uncovered{" "}
-                                        <span className="font-semibold">
-                                            a cost-effective migration path
+                                        <span className="text-fg-primary">
+                                            Technical audit with our developer
                                         </span>{" "}
-                                        that would enable full analytics and
-                                        in-app upsell slots
+                                        uncovered a cost-effective migration
+                                        path that would enable full analytics
+                                        and in-app upsell slots
                                     </li>
                                 </ul>
                             </div>
@@ -319,11 +304,11 @@ export default function PersonalAccount() {
                         {/* Design Process */}
                         <div className="flex flex-col gap-6">
                             <div className="flex flex-col gap-4">
-                                <h4 className="text-heading-md font-semibold">
+                                <h4 className="text-heading-sm">
                                     Design Process
                                 </h4>
                                 <div className="flex flex-col gap-3">
-                                    <p className="text-body-md text-fg-primary">
+                                    <p className="text-body-md text-fg-secondary">
                                         We split the migration into three clear
                                         phases - initial MVP, refinement, and
                                         final polished version - so you can see
@@ -336,12 +321,12 @@ export default function PersonalAccount() {
                             <div className="flex flex-col gap-10">
                                 <div className="flex flex-col gap-4">
                                     <div className="flex flex-col gap-2">
-                                        <h5 className="text-heading-sm font-semibold">
+                                        <h5 className="text-heading-sm">
                                             Initial MVP
                                         </h5>
                                         <div className="flex flex-col gap-2">
-                                            <p className="text-body-md text-fg-primary">
-                                                <span className="font-semibold">
+                                            <p className="text-body-md text-fg-secondary">
+                                                <span className="text-fg-primary">
                                                     Goal:
                                                 </span>{" "}
                                                 Ship the simplest usable account
@@ -350,10 +335,10 @@ export default function PersonalAccount() {
                                                 users.
                                             </p>
                                             <div className="flex flex-col gap-1">
-                                                <p className="text-body-md font-semibold">
+                                                <p className="text-body-md text-fg-primary">
                                                     What I did:
                                                 </p>
-                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
+                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
                                                     <li>
                                                         Built a unified sidebar
                                                         (Home · Lectures · UGC
@@ -380,12 +365,12 @@ export default function PersonalAccount() {
                                 </div>
                                 <div className="flex flex-col gap-4">
                                     <div className="flex flex-col gap-2">
-                                        <h5 className="text-heading-sm font-semibold">
+                                        <h5 className="text-heading-sm">
                                             Refinement
                                         </h5>
                                         <div className="flex flex-col gap-2">
-                                            <p className="text-body-md text-fg-primary">
-                                                <span className="font-semibold">
+                                            <p className="text-body-md text-fg-secondary">
+                                                <span className="text-fg-primary">
                                                     Goal:
                                                 </span>{" "}
                                                 Smooth the transition for
@@ -393,10 +378,10 @@ export default function PersonalAccount() {
                                                 feedback.
                                             </p>
                                             <div className="flex flex-col gap-1">
-                                                <p className="text-body-md font-semibold">
+                                                <p className="text-body-md text-fg-primary">
                                                     What I did:
                                                 </p>
-                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
+                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
                                                     <li>
                                                         Added “Lectures (Kwiga)”
                                                         legacy link for users
@@ -425,12 +410,12 @@ export default function PersonalAccount() {
                                 </div>
                                 <div className="flex flex-col gap-4">
                                     <div className="flex flex-col gap-2">
-                                        <h5 className="text-heading-sm font-semibold">
+                                        <h5 className="text-heading-sm">
                                             Final
                                         </h5>
                                         <div className="flex flex-col gap-2">
-                                            <p className="text-body-md text-fg-primary">
-                                                <span className="font-semibold">
+                                            <p className="text-body-md text-fg-secondary">
+                                                <span className="text-fg-primary">
                                                     Goal:
                                                 </span>{" "}
                                                 Lock in a cohesive design
@@ -439,10 +424,10 @@ export default function PersonalAccount() {
                                                 layout.
                                             </p>
                                             <div className="flex flex-col gap-1">
-                                                <p className="text-body-md font-semibold">
+                                                <p className="text-body-md text-fg-primary">
                                                     What I did:
                                                 </p>
-                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
+                                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
                                                     <li>
                                                         Established colour,
                                                         typography, and
@@ -472,82 +457,57 @@ export default function PersonalAccount() {
 
                         {/* Outcome */}
                         <div className="flex flex-col gap-4">
-                            <h4 className="text-heading-md font-semibold">
-                                Outcome
-                            </h4>
-                            <p className="text-body-md text-fg-secondary">
-                                Owning our personal-account UX end-to-end led to{" "}
-                                <span className="font-semibold text-fg-primary">
-                                    a 65% drop in support tickets, 40% higher
-                                    onboarding completion,
-                                </span>{" "}
-                                and{" "}
-                                <span className="font-semibold text-fg-primary">
-                                    50% more UGC engagement
-                                </span>{" "}
-                                as well as{" "}
-                                <span className="font-semibold text-fg-primary">
-                                    gave us richer data on user needs
-                                </span>{" "}
-                                - - all on a foundation built to scale.
+                            <h4 className="text-heading-sm">Outcome</h4>
+                            <p className="text-body-md text-fg-primary">
+                                Owning our personal-account UX end-to-end led to
+                                a 65% drop in support tickets, 40% higher
+                                onboarding completion, and 50% more UGC
+                                engagement as well as gave us richer data on
+                                user needs - all on a foundation built to scale.
                             </p>
                             <div className="flex flex-col gap-1">
-                                <p className="text-body-md font-semibold">
+                                <p className="text-body-md text-fg-primary">
                                     Key takeaways:
                                 </p>
                                 <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                     <li>
-                                        <span className="font-semibold">
-                                            Ship an MVP
-                                        </span>
-                                        , gather real feedback, then iterate
+                                        Ship an MVP, gather real feedback, then
+                                        iterate
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
-                                            Partner closely
-                                        </span>{" "}
-                                        with PM, support, and dev for faster
-                                        wins
+                                        Partner closely with PM, support, and
+                                        dev for faster wins
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
-                                            Invest early
-                                        </span>{" "}
-                                        in a design system for consistency and
-                                        speed
+                                        Invest early in a design system for
+                                        consistency and speed
                                     </li>
                                     <li>
-                                        <span className="font-semibold">
-                                            Run small
-                                        </span>{" "}
-                                        experiments to unlock big gains
+                                        Run small experiments to unlock big
+                                        gains
                                     </li>
                                 </ul>
                             </div>
-                            <blockquote className="border-l-4 border-border-brand pl-2">
-                                <p className="text-body-md text-fg-secondary">
+                            <blockquote className="border-l-4 border-border-focus pl-2">
+                                <p className="text-body-md text-fg-primary">
                                     “Migrating our account flows was just the
-                                    start—it gave us a{" "}
-                                    <span className="font-semibold text-fg-primary">
-                                        repeatable, user-centered framework for
-                                        growth.
-                                    </span>
-                                    ”
+                                    start — it gave us a repeatable,
+                                    user-centered framework for growth.”
                                 </p>
                             </blockquote>
                         </div>
                         <Button
                             asChild
                             variant="tertiary"
-                            className="h-auto rounded-2xl p-4 cursor-pointer shadow-xs hover:shadow-none"
+                            className="w-full h-auto rounded-2xl p-4"
                         >
                             <Link href="/cases/subscription-ux">
-                                <div className="flex items-center justify-between">
-                                    <div className="flex flex-col gap-1">
-                                        <p className="text-body-sm font-medium text-fg-secondary">
+                                <div className="flex w-full items-center justify-between">
+                                    <div className="flex flex-col">
+                                        <p className="text-body-sm text-fg-secondary">
                                             Next Case
                                         </p>
-                                        <h5 className="text-heading-sm font-semibold text-fg-primary">
+                                        <h5 className="text-heading-sm text-action-on-tertiary">
                                             Subscription UX
                                         </h5>
                                     </div>

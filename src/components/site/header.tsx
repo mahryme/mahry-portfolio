@@ -11,15 +11,15 @@ export default function Header() {
                 <Container variant="nav">
                     <div className="flex gap-2">
                         <Link href="/">
-                            <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-action-primary border-border-brand border-2 shadow-xs transition-all duration-400 ease-out hover:shadow-none hover:bg-action-primary-hover">
-                                <div className="h-5 w-5 rounded-full bg-container-high border-border-brand border-2"></div>
+                            <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-action-primary border-border-focus border-2 shadow-2xs transition-all duration-400 ease-out hover:shadow-none hover:bg-action-primary-hover">
+                                <div className="h-5 w-5 rounded-full bg-container-high border-border-focus border-2"></div>
                             </div>
                         </Link>
                         <div className="space-y-0">
                             <p className="text-fg-primary text-label-md">
                                 Maksym Hrytsenko
                             </p>
-                            <p className="text-fg-secondary text-caption-default">
+                            <p className="text-fg-secondary text-label-sm">
                                 Product Designer
                             </p>
                         </div>
@@ -62,11 +62,6 @@ export default function Header() {
                             target="_blank"
                         >
                             Let&apos;s connect!
-                        </Link>
-                    </Button>
-                    <Button asChild variant="ghost">
-                        <Link href="/about" className="items-center gap-1">
-                            About me
                         </Link>
                     </Button>
                 </div>

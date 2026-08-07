@@ -23,21 +23,27 @@ export default function About() {
                                 />
                             </div>
                             <div className="flex flex-col gap-3">
-                                <h2 className="text-h2 font-semibold">
-                                    About me
-                                </h2>
-                                <p className="text-body-md text-neutral-950">
+                                <h2 className="text-heading-md">About me</h2>
+                                <p className="text-body-md text-fg-primary text-pretty">
                                     I&apos;m Maksym (Maks) — a product designer
                                     based in London, UK, studying User
                                     Experience at University of the Arts London.
                                 </p>
-                                <p className="text-body-md text-neutral-950">
+                                <p className="text-body-md text-fg-primary text-pretty">
                                     <span className="font-semibold">
                                         I take on the whole problem, not just
                                         the screens.
                                     </span>{" "}
-                                    On my main project, The Instapreneurs (an
-                                    online-education platform), I built the
+                                    On my main project,{" "}
+                                    <a
+                                        href="https://www.theinstapreneurs.com.ua/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="font-semibold text-action-secondary transition-all hover:text-action-secondary-hover underline"
+                                    >
+                                        The Instapreneurs
+                                    </a>{" "}
+                                    (an online-education platform), I built the
                                     product from the ground up — information
                                     architecture, user flows, the interface, the
                                     design system and the direction for the
@@ -53,7 +59,7 @@ export default function About() {
                                     </span>
                                     .
                                 </p>
-                                <p className="text-body-md text-neutral-900">
+                                <p className="text-body-md text-fg-primary text-pretty">
                                     Owning that much doesn&apos;t necessarily
                                     mean working alone — it&apos;s{" "}
                                     <span className="font-semibold">
@@ -72,7 +78,7 @@ export default function About() {
                                     about these calls, but quick to change my
                                     mind when the evidence does.
                                 </p>
-                                <p className="text-body-md text-neutral-900">
+                                <p className="text-body-md text-fg-primary text-pretty">
                                     Curiosity is the engine behind all of it as
                                     it pulls me into a problem before I know the
                                     answer, and lately it&apos;s{" "}
@@ -86,9 +92,9 @@ export default function About() {
                                     It&apos;s the part I&apos;m going deepest on
                                     right now.
                                 </p>
-                                <p className="text-body-md text-neutral-900">
+                                <p className="text-body-md text-fg-primary text-pretty">
                                     Beyond design and code, I&apos;m passionate
-                                    about languages and endurance sports. I
+                                    about languages and endurance sports. I{" "}
                                     <span className="font-semibold">
                                         learnt Spanish from zero to
                                         conversational
@@ -102,13 +108,13 @@ export default function About() {
                                         href="https://www.strava.com/athletes/138692749"
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="font-semibold text-blue-600 transition-all hover:text-blue-800 underline"
+                                        className="font-semibold text-action-secondary transition-all hover:text-action-secondary-hover underline"
                                     >
                                         My Strava
                                     </a>
                                     ).
                                 </p>
-                                <p className="text-body-md text-neutral-900">
+                                <p className="text-body-md text-fg-primary text-pretty">
                                     I&apos;m looking for opportunities where I
                                     can take on real product problems and keep
                                     building the design-systems-in-code side of

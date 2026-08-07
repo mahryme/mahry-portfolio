@@ -54,8 +54,7 @@ export default function Card({
                 </div>
                 <Button asChild variant="secondary">
                     <Link href={href} className="items-center gap-2">
-                        Read
-                        <ArrowRight className="w-6 h-6 -ml-1" />
+                        Learn more
                     </Link>
                 </Button>
             </div>

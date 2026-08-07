@@ -12,10 +12,10 @@ export default function HomePage() {
                     <Container>
                         <div className="max-w-4xl flex flex-col gap-3 text-fg-primary">
                             <h2 className="text-heading-md text-pretty">
-                                Hi 👋 I&apos;m a product designer who loves
-                                building systems and helping things grow
+                                A product designer who loves building systems
+                                and helping things grow
                             </h2>
-                            <p className="text-body-lg text-pretty">
+                            <p className="text-body-lg text-fg-secondary text-pretty">
                                 I create experiences that solve real problems by
                                 asking questions, listening carefully, and
                                 combining systematic thinking with intuition.
