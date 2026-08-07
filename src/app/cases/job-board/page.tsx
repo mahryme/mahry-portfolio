@@ -34,7 +34,7 @@ export default function JobBoard() {
                                 <h2 className="text-heading-md">
                                     Job Board Integration
                                 </h2>
-                                <p className="text-body-md text-fg-secondary">
+                                <p className="text-body-md text-fg-primary">
                                     We built a job board inside our lectures
                                     library to primarily boost lecture library
                                     conversions. In six weeks, we launched a
@@ -51,7 +51,7 @@ export default function JobBoard() {
                                     <p className="text-label-md text-fg-primary">
                                         Timeline
                                     </p>
-                                    <p className="text-label-md text-fg-primary">
+                                    <p className="text-label-md  text-fg-primary">
                                         Impact
                                     </p>
                                 </div>
@@ -63,7 +63,7 @@ export default function JobBoard() {
                                     <p className="text-body-sm text-fg-primary">
                                         Q1-Q2 2025
                                     </p>
-                                    <p className="text-body-sm text-fg-success">
+                                    <p className="text-body-sm font-semibold text-fg-success">
                                         +15 % Lecture CTR
                                     </p>
                                 </div>
@@ -93,10 +93,15 @@ export default function JobBoard() {
                                 Problem & Context
                             </h4>
                             <div className="flex flex-col gap-2">
-                                <p className="text-body-md text-fg-secondary">
-                                    <span className="text-fg-primary">
+                                <p className="text-body-md text-fg-primary">
+                                    <a
+                                        href="https://www.theinstapreneurs.com.ua/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="font-semibold text-action-secondary transition-all hover:text-action-secondary-hover underline"
+                                    >
                                         The Instapreneurs
-                                    </span>{" "}
+                                    </a>{" "}
                                     is a subscription-based learning platform
                                     for junior-to-mid marketing and SMM
                                     professionals. After finishing courses, our
@@ -105,10 +110,10 @@ export default function JobBoard() {
                                     for access to our specialist pool.
                                 </p>
                                 <div className="flex flex-col gap-1">
-                                    <p className="text-body-md text-fg-primary">
+                                    <p className="font-semibold text-fg-primary">
                                         So we needed to:
                                     </p>
-                                    <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
+                                    <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                         <li>Retain users after they upskill</li>
                                         <li>
                                             Showcase relevant vacancies
@@ -127,7 +132,7 @@ export default function JobBoard() {
                         {/* Objectives */}
                         <div className="flex flex-col gap-4">
                             <h4 className="text-heading-sm">Objectives</h4>
-                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
+                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                 <li>
                                     Unify learning and job discovery in one
                                     interface
@@ -166,7 +171,7 @@ export default function JobBoard() {
                         {/* My role */}
                         <div className="flex flex-col gap-4">
                             <h4 className="text-heading-sm">My role</h4>
-                            <p className="text-body-md text-fg-secondary">
+                            <p className="text-body-md text-fg-primary">
                                 I collaborated with the whole team including
                                 founder Veronika, PM Viktoriia, dev Oleh and
                                 marketing Oleksandra. I nailed down
@@ -183,23 +188,23 @@ export default function JobBoard() {
                             <h4 className="text-heading-sm">
                                 Research & Key Insights
                             </h4>
-                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
+                            <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                 <li>
-                                    <span className="text-fg-primary">
+                                    <span className="font-semibold text-fg-primary">
                                         Learner survey (N = 50):
                                     </span>{" "}
                                     80% would click a “Recommended Lecture” on a
                                     job page
                                 </li>
                                 <li>
-                                    <span className="text-fg-primary">
+                                    <span className="font-semibold text-fg-primary">
                                         Competitive analysis:
                                     </span>{" "}
                                     Users expect keyword search, multi-select
                                     filters and straightforward CTAs
                                 </li>
                                 <li>
-                                    <span className="text-fg-primary">
+                                    <span className="font-semibold text-fg-primary">
                                         Stakeholder input:
                                     </span>{" "}
                                     Employers wanted a simple “Post a Job” form
@@ -212,7 +217,7 @@ export default function JobBoard() {
                         <div className="flex flex-col gap-4">
                             <h4 className="text-heading-sm">Solution</h4>
                             <div className="flex flex-col gap-2">
-                                <p className="text-body-md text-fg-secondary">
+                                <p className="text-body-md text-fg-primary">
                                     At first place, we wanted to keep it very
                                     simple and handful for users. Knowing all
                                     the basic requirements and having done some
@@ -225,7 +230,7 @@ export default function JobBoard() {
                                     any relevant information that we were able
                                     to obtain from the companies.
                                 </p>
-                                <p className="text-body-md text-fg-secondary">
+                                <p className="text-body-md text-fg-primary text-pretty">
                                     Finally, I partnered closely with
                                     development to construct a CMS for live
                                     listings, embed upsell slots and Ship the
@@ -241,10 +246,13 @@ export default function JobBoard() {
                             <h4 className="text-heading-sm">Outcome</h4>
                             <p className="text-body-md text-fg-primary">
                                 Launching the in-library job board has already
-                                brought us 12 pilot partners, 64 live vacancies
-                                and a +15% click-through rate into related
-                                lectures which comes as one of our foundation to
-                                approaching B2B stream.
+                                brought us{" "}
+                                <span className="font-semibold text-fg-primary">
+                                    12 pilot partners, 64 live vacancies and a
+                                    +15% click-through rate
+                                </span>{" "}
+                                into related lectures which comes as one of our
+                                foundation to approaching B2B stream.
                             </p>
                         </div>
                         <Button

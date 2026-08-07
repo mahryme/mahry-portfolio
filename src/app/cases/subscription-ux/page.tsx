@@ -20,7 +20,7 @@ export default function SubscriptionUX() {
                                 <h2 className="text-heading-md">
                                     Subscription UX
                                 </h2>
-                                <p className="text-body-md text-fg-secondary">
+                                <p className="text-body-md text-fg-primary">
                                     Subscription-related support tickets were
                                     piling up and most of those could&apos;ve
                                     been resolved within the interface. Being
@@ -29,10 +29,8 @@ export default function SubscriptionUX() {
                                     users more clarity about their
                                     subscriptions.
                                 </p>
-                                <p className="text-body-md text-fg-secondary">
-                                    <span className="text-fg-primary">
-                                        Note:
-                                    </span>{" "}
+                                <p className="text-body-md text-fg-primary">
+                                    <span className="font-semibold">Note:</span>{" "}
                                     Some screenshots in this case studies have
                                     been translated from Ukrainian to English
                                     for international portfolio presentation
@@ -59,7 +57,7 @@ export default function SubscriptionUX() {
                                     <p className="text-body-sm text-fg-primary">
                                         Q4 2024
                                     </p>
-                                    <p className="text-body-sm text-fg-success">
+                                    <p className="text-body-sm font-semibold text-fg-success">
                                         -40% Support Tickets
                                     </p>
                                 </div>
@@ -88,22 +86,27 @@ export default function SubscriptionUX() {
                                 Problem & Context
                             </h4>
                             <div className="flex flex-col gap-1">
-                                <p className="text-body-md text-fg-secondary">
-                                    <span className="text-fg-primary">
+                                <p className="text-body-md text-fg-primary">
+                                    <a
+                                        href="https://www.theinstapreneurs.com.ua/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="font-semibold text-action-secondary transition-all hover:text-action-secondary-hover underline"
+                                    >
                                         The Instapreneurs
-                                    </span>{" "}
+                                    </a>{" "}
                                     is a subscription-based learning platform
                                     for digital specialists that offers a range
                                     of lectures from SMM to Design that help
                                     users update their skills to become more
-                                    employable (one lecture=one skill). Apart
+                                    employable (one lecture = one skill). Apart
                                     from Lectures Library, it has an embedded
                                     UGC Library with a separate subscription,
                                     but managed within one personal account.
                                 </p>
-                                <p className="text-body-md text-fg-secondary">
+                                <p className="text-body-md text-fg-primary">
                                     Our support team experienced{" "}
-                                    <span className="text-fg-primary">
+                                    <span className="font-semibold">
                                         an increasing volume of basic
                                         subscription-related inquiries
                                     </span>{" "}
@@ -118,7 +121,7 @@ export default function SubscriptionUX() {
                         {/* My role */}
                         <div className="flex flex-col gap-4">
                             <h4 className="text-heading-sm">My role</h4>
-                            <p className="text-body-md text-fg-secondary">
+                            <p className="text-body-md text-fg-primary">
                                 As a sole Product Designer, I led the process of
                                 understanding the problem and finding a solution
                                 that would conform either to our two-product
@@ -133,13 +136,13 @@ export default function SubscriptionUX() {
                                 Understanding the problem
                             </h4>
                             <div className="flex flex-col gap-2">
-                                <p className="text-body-md text-fg-secondary">
+                                <p className="text-body-md text-fg-primary">
                                     I looked at the current &quot;Plan&quot;
                                     page in the Personal Account and identified
                                     key issues that might affect user
                                     experience:
                                 </p>
-                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-secondary">
+                                <ul className="list-disc list-outside pl-4 space-y-1 text-body-md text-fg-primary">
                                     <li>
                                         Inconsistent terminology between
                                         &quot;Plans&quot; and
@@ -156,7 +159,7 @@ export default function SubscriptionUX() {
                                     <li>Poor information hierarchy</li>
                                     <li>Limited user guidance</li>
                                 </ul>
-                                <p className="text-body-md text-fg-secondary">
+                                <p className="text-body-md text-fg-primary">
                                     However, due to a technical constrains, we
                                     use a third-party services for subscriptions
                                     which makes us unable to create more smooth
@@ -189,13 +192,13 @@ export default function SubscriptionUX() {
                             <h4 className="text-heading-sm">Solution</h4>
                             <div className="flex flex-col gap-8">
                                 <div className="flex flex-col gap-4">
-                                    <p className="text-body-md text-fg-secondary">
-                                        <span className="text-fg-primary">
+                                    <p className="text-body-md text-fg-primary">
+                                        <span className="font-semibold">
                                             In our first iteration,
                                         </span>{" "}
                                         we sketched out a richer “My
                                         Subscription” page by{" "}
-                                        <span className="text-fg-primary">
+                                        <span className="font-semibold">
                                             testing a third-party solution on a
                                             free trial.
                                         </span>{" "}
@@ -224,13 +227,13 @@ export default function SubscriptionUX() {
                                     </div>
                                 </div>
                                 <div className="flex flex-col gap-4">
-                                    <p className="text-body-md text-fg-secondary">
-                                        <span className="text-fg-primary">
+                                    <p className="text-body-md text-fg-primary">
+                                        <span className="font-semibold">
                                             In our second iteration,
                                         </span>{" "}
                                         after deciding not to purchase the paid
                                         extension, I focused purely on{" "}
-                                        <span className="text-fg-primary">
+                                        <span className="font-semibold">
                                             clarity and consistency.
                                         </span>{" "}
                                         I renamed the page &quot;My
@@ -278,13 +281,13 @@ export default function SubscriptionUX() {
                                 <li>
                                     &quot;Where&apos;s my renewal date?&quot;
                                     and &quot;How do I cancel?&quot; tickets{" "}
-                                    <span className="text-fg-success">
+                                    <span className="font-semibold text-fg-success">
                                         fell by 40%
                                     </span>
                                 </li>
                                 <li>
                                     The streamlined flow{" "}
-                                    <span className="text-fg-success">
+                                    <span className="font-semibold text-fg-success">
                                         saved ~2 hours/week of support time
                                     </span>
                                 </li>
