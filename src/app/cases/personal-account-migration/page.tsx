@@ -1,8 +1,7 @@
-import { Container } from "@/components/site/container";
 import Header from "@/components/site/header";
 import Footer from "@/components/site/footer";
 import { Slider, Slide } from "@/components/site/slider";
-import { Button } from "@mahry/ds";
+import { Button, Container } from "@mahry/ds";
 import { ArrowRight } from "lucide-react";
 
 import Image from "next/image";
@@ -46,7 +45,7 @@ export default function PersonalAccount() {
             <main>
                 <Header />
                 <section className="flex items-center justify-center">
-                    <Container variant="blog" className="flex flex-col gap-8">
+                    <Container type="blog" className="flex flex-col gap-8">
                         <div className="flex flex-col gap-6">
                             <div className="flex flex-col gap-3">
                                 <h2 className="text-heading-md">

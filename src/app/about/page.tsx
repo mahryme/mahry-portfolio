@@ -1,4 +1,4 @@
-import { Container } from "@/components/site/container";
+import { Container } from "@mahry/ds";
 import Header from "@/components/site/header";
 import Footer from "@/components/site/footer";
 
@@ -12,7 +12,7 @@ export default function About() {
                 <Header />
                 <main>
                     <section className="flex items-center justify-center">
-                        <Container variant="blog" className="flex flex-col">
+                        <Container type="blog" className="flex flex-col">
                             <div className="relative size-full aspect-square rounded-lg overflow-hidden md:size-40">
                                 <Image
                                     src="/avatar.jpg"

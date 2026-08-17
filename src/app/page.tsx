@@ -1,4 +1,4 @@
-import { Container } from "@/components/site/container";
+import { Container } from "@mahry/ds";
 import Header from "@/components/site/header";
 import Footer from "@/components/site/footer";
 import Card from "@/components/site/card";

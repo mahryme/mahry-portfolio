@@ -1,14 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "@mahry/ds";
-import { Container } from "@/components/site/container";
+import { Button, Container } from "@mahry/ds";
 
 export default function Header() {
     return (
         <>
             <header className="w-full flex items-center justify-center">
-                <Container variant="nav">
+                <Container type="nav" className="flex items-center justify-between">
                     <div className="flex gap-2">
                         <Link href="/">
                             <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-action-primary border-border-focus border-2 shadow-2xs transition-all duration-400 ease-out hover:shadow-none hover:bg-action-primary-hover">
