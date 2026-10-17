@@ -528,7 +528,7 @@ export default function PersonalAccount() {
                     </Container>
                 </section>
             </main>
-            <Footer />
+            <Footer variant="with-links" />
         </>
     );
 }

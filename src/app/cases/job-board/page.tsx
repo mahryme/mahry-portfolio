@@ -279,7 +279,7 @@ export default function JobBoard() {
                     </Container>
                 </section>
             </main>
-            <Footer />
+            <Footer variant="with-links" />
         </>
     );
 }

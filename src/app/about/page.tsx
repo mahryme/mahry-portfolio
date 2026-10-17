@@ -126,7 +126,7 @@ export default function About() {
                         </Container>
                     </section>
                 </main>
-                <Footer />
+                <Footer variant="with-links" />
             </div>
         </>
     );

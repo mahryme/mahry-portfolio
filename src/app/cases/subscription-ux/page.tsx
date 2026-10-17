@@ -317,7 +317,7 @@ export default function SubscriptionUX() {
                     </Container>
                 </section>
             </main>
-            <Footer />
+            <Footer variant="with-links" />
         </>
     );
 }
