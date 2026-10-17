@@ -27,7 +27,7 @@ export default function JobBoard() {
             <main>
                 <Header />
                 <section className="flex items-center justify-center">
-                    <Container type="blog" className="flex flex-col gap-8">
+                    <Container className="max-w-3xl flex flex-col gap-8">
                         <div className="flex flex-col gap-6">
                             <div className="flex flex-col gap-3">
                                 <h2 className="text-heading-md">

@@ -12,7 +12,7 @@ export default function About() {
                 <Header />
                 <main>
                     <section className="flex items-center justify-center">
-                        <Container type="blog" className="flex flex-col">
+                        <Container className="max-w-3xl flex flex-col">
                             <div className="relative size-full aspect-square rounded-lg overflow-hidden md:size-40">
                                 <Image
                                     src="/avatar.jpg"

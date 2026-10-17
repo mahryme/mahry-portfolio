@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { Badge, Button } from "@mahry/ds";
 import * as React from "react";
 import Image from "next/image";
