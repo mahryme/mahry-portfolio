@@ -12,8 +12,6 @@ import {
 import Footer from "@/components/site/footer";
 import Header from "@/components/site/header";
 
-const sectionLabel = "font-mono text-label-md uppercase text-fg-tertiary";
-
 export default function ArchivePage() {
     return (
         <div className="flex min-h-dvh flex-col">
@@ -39,7 +37,7 @@ export default function ArchivePage() {
                         </h1>
                         <div className="grid gap-6 lg:grid-cols-3 lg:items-start lg:gap-8">
                             <section className="flex flex-col gap-2">
-                                <h2 className={sectionLabel}>Case studies</h2>
+                                <h2 className="label-mono">Case studies</h2>
                                 <LinkItem
                                     asChild
                                     label="Lecture Library Migration"
@@ -72,7 +70,7 @@ export default function ArchivePage() {
 
                             <div className="flex flex-col gap-6">
                                 <section className="flex flex-col gap-2">
-                                    <h2 className={sectionLabel}>System</h2>
+                                    <h2 className="label-mono">System</h2>
                                     <LinkItem
                                         status="coming-soon"
                                         label="Mahry DS"
@@ -80,7 +78,7 @@ export default function ArchivePage() {
                                     />
                                 </section>
                                 <section className="flex flex-col gap-2">
-                                    <h2 className={sectionLabel}>Playground</h2>
+                                    <h2 className="label-mono">Playground</h2>
                                     <LinkItem
                                         status="coming-soon"
                                         label="Spanish word of the day"
@@ -90,7 +88,7 @@ export default function ArchivePage() {
                             </div>
 
                             <section className="flex flex-col gap-2">
-                                <h2 className={sectionLabel}>Also built</h2>
+                                <h2 className="label-mono">Also built</h2>
                                 <LinkItem
                                     asChild
                                     label="Nivroku"

@@ -15,7 +15,16 @@
     --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
+@utility label-mono {
+    @apply font-mono text-label-md uppercase text-fg-tertiary;
+}
+
 @layer base {
+    @media (prefers-reduced-motion: no-preference) {
+        html {
+            scroll-behavior: smooth;
+        }
+    }
     body {
         @apply bg-surface-default text-fg-primary;
         font-family: var(--typo-font-sans);
