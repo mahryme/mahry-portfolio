@@ -9,6 +9,17 @@
 
 @layer theme, base, utilities, components;
 
+/* Dark theme: the design system defines it under [data-theme="dark"]. layout.tsx
+   sets that attribute from the device's colour scheme, and `dark:` utilities
+   follow it too. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+:root {
+    color-scheme: light;
+}
+:root[data-theme="dark"] {
+    color-scheme: dark;
+}
+
 @theme static {
     --typo-font-sans:
         var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
@@ -55,10 +66,10 @@
     }
     .swiper-button-next,
     .swiper-button-prev {
-        color: var(--color-neutral-900) !important;
+        color: var(--color-fg-primary) !important;
     }
     .swiper-pagination-bullet-active {
-        background: var(--color-neutral-900) !important;
+        background: var(--color-fg-primary) !important;
     }
 }
 
