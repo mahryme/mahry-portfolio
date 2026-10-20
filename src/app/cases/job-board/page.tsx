@@ -259,14 +259,14 @@ export default function JobBoard() {
                             variant="tertiary"
                             className="w-full h-auto rounded-2xl p-4"
                         >
-                            <Link href="/cases/personal-account-migration">
+                            <Link href="/cases/lecture-library-migration">
                                 <div className="flex w-full items-center justify-between">
                                     <div className="flex flex-col">
                                         <p className="text-body-sm text-fg-secondary">
                                             Next Case
                                         </p>
                                         <h5 className="text-heading-sm text-action-on-tertiary">
-                                            Personal Account Migration
+                                            Lecture Library Migration
                                         </h5>
                                     </div>
                                     <ArrowRight

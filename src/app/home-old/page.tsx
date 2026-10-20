@@ -42,7 +42,7 @@ export default function HomeOldPage() {
                                     title="Personal Account Migration"
                                     subtitle="Moved off Kwiga to Webflow + Memberstack - cutting third-party dependency and enabling analytics, content discovery and UGC monetisation"
                                     tags={["Product", "H2 2024"]}
-                                    href="/cases/personal-account-migration"
+                                    href="/cases/lecture-library-migration"
                                 />
                                 <Card
                                     imageSrc="/images/subs/sub-ver-2-eng.webp"
