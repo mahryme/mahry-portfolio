@@ -43,7 +43,7 @@ export default function ArchivePage() {
                                     label="Lecture Library Migration"
                                     description="Moved lectures and accounts off a third-party platform, built the search and filters it lacked"
                                 >
-                                    <Link href="/cases/personal-account-migration">
+                                    <Link href="/cases/lecture-library-migration?from=archive">
                                         Lecture Library Migration
                                     </Link>
                                 </LinkItem>

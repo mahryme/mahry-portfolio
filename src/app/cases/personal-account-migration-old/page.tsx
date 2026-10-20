@@ -8,7 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function PersonalAccount() {
+export default function PersonalAccountOld() {
     const sliderInitial: Slide[] = [
         { src: "/images/acc/mvp-dash.webp", caption: "MVP dashboard" },
         {
