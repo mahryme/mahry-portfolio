@@ -56,7 +56,7 @@ export default function HomePage() {
                                     <span className="text-label-md text-fg-primary">
                                         designed it end to end
                                     </span>
-                                    . As a result, "How do I find access?"
+                                    . As a result, &ldquo;How do I find access?&rdquo;
                                     dropped out of support&apos;s top requests
                                     from October. I learnt that moving users
                                     across was harder for them than for us.
@@ -69,7 +69,7 @@ export default function HomePage() {
                                     </span>
                                     . I&apos;m building my own design system,{" "}
                                     <span>Mahry DS</span>, to see how far I can
-                                    optimise one with the tools available. I'm
+                                    optimise one with the tools available. I&apos;m
                                     also studying User Experience at the
                                     University of the Arts London.
                                 </p>
