@@ -171,7 +171,7 @@ export default function HomePage() {
                                         className="order-last flex-1 justify-center lg:order-first lg:flex-none"
                                     >
                                         <Link
-                                            href="https://www.linkedin.com/in/mahryme/"
+                                            href="mailto:hi@mahry.fyi"
                                             target="_blank"
                                         >
                                             Say hi!
