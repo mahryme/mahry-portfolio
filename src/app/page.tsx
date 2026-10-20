@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Button, Container, IconButton, LinkItem } from "@mahry/ds";
 import DrawLayer from "@/components/draw-layer/draw-layer";
+import Flowers from "@/components/draw-layer/flowers";
+import Lawn from "@/components/draw-layer/lawn";
 import CasePreview from "@/components/site/case-preview";
 import Footer from "@/components/site/footer";
 import { Github, Linkedin } from "@/components/site/icons";
@@ -206,6 +208,12 @@ export default function HomePage() {
                         </div>
                     </div>
                 </Container>
+                {/* From lg up the lawn line sits 28px above the footer and never adds
+                    height; below lg it closes the page, same gap. */}
+                <div className="pointer-events-none relative mt-8 mb-7 lg:absolute lg:inset-x-0 lg:bottom-7 lg:mt-0 lg:mb-0">
+                    <Lawn />
+                    <Flowers className="hidden lg:block" />
+                </div>
             </main>
             <Footer />
         </div>
