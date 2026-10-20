@@ -61,3 +61,14 @@
         background: var(--color-neutral-900) !important;
     }
 }
+
+/* Draw layer: cursor affordance and selection lock while a stroke is active. */
+html[data-can-draw] {
+    cursor: crosshair;
+}
+html[data-drawing],
+html[data-drawing] * {
+    cursor: crosshair;
+    -webkit-user-select: none;
+    user-select: none;
+}

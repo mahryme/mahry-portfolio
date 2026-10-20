@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Button, Container, IconButton, LinkItem } from "@mahry/ds";
+import DrawLayer from "@/components/draw-layer/draw-layer";
 import Footer from "@/components/site/footer";
 import { Github, Linkedin } from "@/components/site/icons";
 import Logo from "@/components/site/logo";
@@ -7,7 +8,8 @@ import Logo from "@/components/site/logo";
 export default function HomePage() {
     return (
         <div className="flex min-h-dvh flex-col">
-            <main className="flex-1">
+            <DrawLayer />
+            <main className="relative flex-1">
                 <Container>
                     <div className="grid gap-5 lg:grid-cols-3 lg:items-start lg:gap-8">
                         <section className="flex flex-col gap-5 lg:gap-6">
