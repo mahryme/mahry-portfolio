@@ -4,8 +4,6 @@ import Footer from "@/components/site/footer";
 import { Github, Linkedin } from "@/components/site/icons";
 import Logo from "@/components/site/logo";
 
-const sectionLabel = "font-mono text-label-md uppercase text-fg-tertiary";
-
 export default function HomePage() {
     return (
         <div className="flex min-h-dvh flex-col">
@@ -26,55 +24,61 @@ export default function HomePage() {
                             </div>
                             <div className="flex flex-col gap-2">
                                 <h1 className="text-label-lg text-fg-primary">
-                                    I’m a product designer who works on digital
-                                    products, platforms and the design systems
+                                    I&apos;m a product designer who works on
+                                    digital products and the design systems
                                     behind them.
                                 </h1>
                                 <p className="text-body-sm text-fg-secondary">
-                                    On{" "}
-                                    <span className="font-medium text-fg-primary">
-                                        The Instapreneurs
+                                    I&apos;m meticulous and I like things
+                                    organised, which is why I like design
+                                    systems. I&apos;m always looking to optimise
+                                    either my workflow or the team&apos;s, and I
+                                    make room for other perspectives along the
+                                    way. I take failures as an opportunity to
+                                    learn and grow by rethinking holistically.
+                                    Outside work, this approach holds in my
+                                    endurance training and in learning Spanish.
+                                </p>
+                                <p className="text-body-sm text-fg-secondary">
+                                    At <span>The Instapreneurs</span>, a
+                                    subscription learning platform, I was the{" "}
+                                    <span className="text-label-md text-fg-primary">
+                                        sole product designer
+                                    </span>{" "}
+                                    when we moved lectures and accounts off a
+                                    third-party platform. I argued for the move,
+                                    pitched it to the founder and{" "}
+                                    <span className="text-label-md text-fg-primary">
+                                        designed it end to end
                                     </span>
-                                    , an educational subscription platform,{" "}
-                                    <br className="hidden lg:block" />I
-                                    initiated and led the migration of users
-                                    from a third-party service to own in-house
-                                    built platform. It cut unresolved support
-                                    tickets by 65%, and enabled opportunities
-                                    for product upsale and user experience
-                                    improvement.
+                                    . As a result, "How do I find access?"
+                                    dropped out of support&apos;s top requests
+                                    from October. I learnt that moving users
+                                    across was harder for them than for us.
                                 </p>
                                 <p className="text-body-sm text-fg-secondary">
-                                    I’m the person who thinks in systems both in
-                                    my everyday life and in work. I always look
-                                    to optimise something — and sometimes it’s
-                                    not my own workflow, but someone else’s or a
-                                    team. If my system slips (that happens),
-                                    it’s a learning curve and opportunity to
-                                    rethink as a whole. Outside work, same
-                                    approach holds in my endurance training and
-                                    learning Spanish day to day.
-                                </p>
-                                <p className="text-body-sm text-fg-secondary">
-                                    Along the way, I’ve been interested in
-                                    implementing my own ideas: started with
-                                    no-code in Webflow, then React and Next.js.
-                                    Now I am growing as a design engineer,
-                                    curious about how design systems work and
-                                    how to optimise them with the tools
-                                    available.
+                                    I started with no-code in Webflow and moved
+                                    to React and Next.js. Now I&apos;m{" "}
+                                    <span className="text-label-md text-fg-primary">
+                                        growing as a design engineer
+                                    </span>
+                                    . I&apos;m building my own design system,{" "}
+                                    <span>Mahry DS</span>, to see how far I can
+                                    optimise one with the tools available. I'm
+                                    also studying User Experience at the
+                                    University of the Arts London.
                                 </p>
                             </div>
                         </section>
 
                         <section className="flex flex-col gap-2">
-                            <h2 className={sectionLabel}>Featured</h2>
+                            <h2 className="label-mono">Featured</h2>
                             <LinkItem
                                 asChild
                                 label="Lecture Library Migration"
                                 description="Moved lectures and accounts off a third-party platform, built the search and filters it lacked"
                             >
-                                <Link href="/cases/personal-account-migration">
+                                <Link href="/cases/lecture-library-migration">
                                     Lecture Library Migration
                                 </Link>
                             </LinkItem>
@@ -83,7 +87,9 @@ export default function HomePage() {
                                 label="Job Board"
                                 description="Added a job board to the lecture library with a related lecture on every vacancy"
                             >
-                                <Link href="/cases/job-board">Job Board</Link>
+                                <Link href="/cases/job-board">
+                                    Job Board
+                                </Link>
                             </LinkItem>
                             <LinkItem
                                 status="coming-soon"
@@ -99,7 +105,7 @@ export default function HomePage() {
 
                         <div className="flex flex-col gap-6">
                             <section className="flex flex-col gap-2">
-                                <h2 className={sectionLabel}>Also</h2>
+                                <h2 className="label-mono">Also</h2>
                                 <LinkItem
                                     asChild
                                     label="Archive"
@@ -119,7 +125,7 @@ export default function HomePage() {
                                 />
                             </section>
                             <section className="flex flex-col gap-1 lg:gap-3">
-                                <h2 className={sectionLabel}>Socials</h2>
+                                <h2 className="label-mono">Socials</h2>
                                 <div className="flex items-center gap-2">
                                     <Button
                                         asChild
