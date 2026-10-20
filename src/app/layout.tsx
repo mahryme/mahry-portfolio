@@ -14,9 +14,14 @@ const geistMono = Geist_Mono({
     display: "swap",
 });
 
+// Vercel hosts the unfinished preview; keep it out of search results. The
+// GitHub Pages build behind mahry.fyi doesn't set VERCEL, so it stays indexable.
+const isPreviewHost = process.env.VERCEL === "1";
+
 export const metadata: Metadata = {
     title: "Maksym Hrytsenko — portfolio",
     description: "",
+    robots: isPreviewHost ? { index: false, follow: false } : undefined,
     icons: [
         { rel: "icon", type: "image/svg", url: "/favicon.svg" },
         { rel: "icon", type: "image/x-icon", url: "/favicon.ico" },
