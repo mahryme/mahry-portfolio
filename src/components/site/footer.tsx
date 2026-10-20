@@ -51,10 +51,7 @@ export default function Footer({ variant = "default" }: FooterProps) {
                             </Link>
                         </IconButton>
                         <Button asChild variant="primary">
-                            <Link
-                                href="https://www.linkedin.com/in/mahryme/"
-                                target="_blank"
-                            >
+                            <Link href="mailto:hi@mahry.fyi" target="_blank">
                                 Say hi!
                             </Link>
                         </Button>
