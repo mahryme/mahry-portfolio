@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button, Container, IconButton, LinkItem } from "@mahry/ds";
 import DrawLayer from "@/components/draw-layer/draw-layer";
+import CasePreview from "@/components/site/case-preview";
 import Footer from "@/components/site/footer";
 import { Github, Linkedin } from "@/components/site/icons";
 import Logo from "@/components/site/logo";
@@ -75,24 +76,57 @@ export default function HomePage() {
 
                         <section className="flex flex-col gap-2">
                             <h2 className="label-mono">Featured</h2>
-                            <LinkItem
-                                asChild
-                                label="Lecture Library Migration"
-                                description="Moved lectures and accounts off a third-party platform, built the search and filters it lacked"
+                            <CasePreview
+                                image="/images/acc/lects-p.webp"
+                                meta={[
+                                    {
+                                        label: "Role",
+                                        value: "Sole product designer",
+                                    },
+                                    {
+                                        label: "Timeline",
+                                        value: "Jun–Dec 2024",
+                                    },
+                                    {
+                                        label: "Skills",
+                                        value: "IA, product design, design systems",
+                                    },
+                                ]}
                             >
-                                <Link href="/cases/lecture-library-migration">
-                                    Lecture Library Migration
-                                </Link>
-                            </LinkItem>
-                            <LinkItem
-                                asChild
-                                label="Job Board"
-                                description="Added a job board to the lecture library with a related lecture on every vacancy"
+                                <LinkItem
+                                    asChild
+                                    label="Lecture Library Migration"
+                                    description="Moved lectures and accounts off a third-party platform, built the search and filters it lacked"
+                                >
+                                    <Link href="/cases/lecture-library-migration">
+                                        Lecture Library Migration
+                                    </Link>
+                                </LinkItem>
+                            </CasePreview>
+                            <CasePreview
+                                image="/images/job/job-vacs.webp"
+                                meta={[
+                                    {
+                                        label: "Role",
+                                        value: "Solo product designer",
+                                    },
+                                    { label: "Timeline", value: "Q1–Q2 2025" },
+                                    {
+                                        label: "Impact",
+                                        value: "+15% lecture CTR",
+                                    },
+                                ]}
                             >
-                                <Link href="/cases/job-board">
-                                    Job Board
-                                </Link>
-                            </LinkItem>
+                                <LinkItem
+                                    asChild
+                                    label="Job Board"
+                                    description="Added a job board to the lecture library with a related lecture on every vacancy"
+                                >
+                                    <Link href="/cases/job-board">
+                                        Job Board
+                                    </Link>
+                                </LinkItem>
+                            </CasePreview>
                             <LinkItem
                                 status="coming-soon"
                                 label="Metis"
